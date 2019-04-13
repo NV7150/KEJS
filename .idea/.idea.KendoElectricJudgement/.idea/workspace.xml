@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a7fc6d86-26d1-4dcc-a1ae-61af88652960" name="デフォルト" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="KendoSerialReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+              <folding>
+                <marker date="1552886507404" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552886507404" expanded="true" signature="128:1054" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="356:397" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="452:785" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="483:782" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="548:608" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="713:767" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="833:1052" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="880:1049" ph="{...}" />
+                <marker date="1552886507404" expanded="true" signature="936:1045" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialReciver.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-263">
+              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+              <folding>
+                <marker date="1552886409692" expanded="false" signature="6:228" ph="..." />
+                <marker date="1552886409692" expanded="true" signature="230:326" ph="/// シリアルを取得します ... " />
+                <marker date="1552886409692" expanded="true" signature="370:4788" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="373:429" ph="/// シリアルの周期 ... " />
+                <marker date="1552886409692" expanded="true" signature="481:537" ph="/// シリアルの起動時にマイコンに送るメッセージ ... " />
+                <marker date="1552886409692" expanded="true" signature="606:671" ph="/// serialBootMessageをマイコンに送った時の返答 ... " />
+                <marker date="1552886409692" expanded="true" signature="740:785" ph="/// 返答を待つ時間（秒） ... " />
+                <marker date="1552886409692" expanded="true" signature="838:880" ph="/// シリアルポート ... " />
+                <marker date="1552886409692" expanded="true" signature="909:964" ph="/// 正常なシリアルポートに接続されたかどうか ... " />
+                <marker date="1552886409692" expanded="true" signature="1005:1049" ph="/// シリアル読みするか ... " />
+                <marker date="1552886409692" expanded="true" signature="1090:1148" ph="/// メッセージを読み込んでキューに追加するメソッド ... " />
+                <marker date="1552886409692" expanded="true" signature="1180:1232" ph="/// シリアルに届いたメッセージのキュー ... " />
+                <marker date="1552886409692" expanded="true" signature="1288:1384" ph="/// シリアルでメッセージを受信した時の処理のデリゲード ... " />
+                <marker date="1552886409692" expanded="true" signature="1447:1495" ph="/// メッセージ受信時のイベント ... " />
+                <marker date="1552886409692" expanded="true" signature="1563:1650" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="1655:1761" ph="/// シリアルポートを見つけます ... " />
+                <marker date="1552886409692" expanded="true" signature="1787:2162" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="1901:2011" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="1963:1980" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2044:2103" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2168:2359" ph="/// 指定した名前のポートを起動し、ブートメッセージを送り、返答があればそれにポートを設定します ... " />
+                <marker date="1552886409692" expanded="true" signature="2400:2779" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2585:2630" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2656:2678" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2702:2760" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2783:2882" ph="/// 現在portに入っているシリアルポートからの返答を待ちます ... " />
+                <marker date="1552886409692" expanded="true" signature="2911:3505" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="2948:3486" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3016:3482" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3211:3405" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3296:3399" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3429:3477" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3508:3613" ph="/// 読み込み系を立ち上げます ... " />
+                <marker date="1552886409692" expanded="true" signature="3644:3823" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3827:3883" ph="/// メッセージが届いていたらキューに追加します ... " />
+                <marker date="1552886409692" expanded="true" signature="3911:4175" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3978:4172" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="3987:4100" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4123:4134" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4232:4357" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4259:4354" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4361:4410" ph="/// 読み込みスレッドを終了します ... " />
+                <marker date="1552886409692" expanded="true" signature="4436:4739" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4570:4611" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4648:4716" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4767:4786" ph="{...}" />
+                <marker date="1552886409692" expanded="true" signature="4845:4972" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+              <folding>
+                <marker date="1552708009321" expanded="true" signature="6:78" ph="..." />
+                <marker date="1552708009321" expanded="true" signature="120:965" ph="{...}" />
+                <marker date="1552708009321" expanded="true" signature="252:259" ph="{...}" />
+                <marker date="1552708009321" expanded="true" signature="314:963" ph="{...}" />
+                <marker date="1552708009321" expanded="true" signature="346:960" ph="{...}" />
+                <marker date="1552708009321" expanded="true" signature="412:501" ph="{...}" />
+                <marker date="1552708009321" expanded="true" signature="538:627" ph="{...}" />
+                <marker date="1552708009321" expanded="true" signature="709:777" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlNumText.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1552707176091" expanded="true" signature="6:100" ph="..." />
+                <marker date="1552707176091" expanded="true" signature="157:264" ph="{...}" />
+                <marker date="1552707176091" expanded="true" signature="234:262" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ScreenChanger.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+              <folding>
+                <marker date="1552707639293" expanded="true" signature="6:78" ph="..." />
+                <marker date="1552707639293" expanded="true" signature="123:1541" ph="{...}" />
+                <marker date="1552707639293" expanded="true" signature="515:1172" ph="{...}" />
+                <marker date="1552707639293" expanded="true" signature="1198:1310" ph="{...}" />
+                <marker date="1552707639293" expanded="true" signature="1338:1452" ph="{...}" />
+                <marker date="1552707639293" expanded="true" signature="1467:1539" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+              <folding>
+                <marker date="1552609050850" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552609050850" expanded="true" signature="121:482" ph="{...}" />
+                <marker date="1552609050850" expanded="true" signature="221:306" ph="{...}" />
+                <marker date="1552609050850" expanded="true" signature="338:363" ph="{...}" />
+                <marker date="1552609050850" expanded="true" signature="397:424" ph="{...}" />
+                <marker date="1552609050850" expanded="true" signature="447:480" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KendoManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+              <folding>
+                <marker date="1552608832709" expanded="false" signature="6:92" ph="..." />
+                <marker date="1552608832709" expanded="true" signature="117:140" ph="{...}" />
+                <marker date="1552608832709" expanded="true" signature="184:959" ph="{...}" />
+                <marker date="1552608832709" expanded="true" signature="250:282" ph="{...}" />
+                <marker date="1552608832709" expanded="true" signature="534:957" ph="{...}" />
+                <marker date="1552608832709" expanded="true" signature="599:670" ph="{...}" />
+                <marker date="1552608832709" expanded="true" signature="691:932" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../ArduinoComTest/Assets/SerialActiver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/SerialHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KendoReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TestReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SerialReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KeyReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KendoSerialReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KendoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Client/ScreenChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Test/TestShader.shader" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="KendoElectricJudgement (2 project)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7fc6d86-26d1-4dcc-a1ae-61af88652960" name="デフォルト" comment="" />
+      <created>1552400530852</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552400530852</updated>
+      <workItem from="1552400538007" duration="11896000" />
+      <workItem from="1552485169150" duration="1953000" />
+      <workItem from="1552605095864" duration="9646000" />
+      <workItem from="1554438926656" duration="438000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="23933000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1552886507404" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552886507404" expanded="true" signature="128:1054" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="356:397" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="452:785" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="483:782" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="548:608" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="713:767" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="833:1052" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="880:1049" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="936:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test/TestShader.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="187" column="16" lean-forward="false" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
+          <folding>
+            <marker date="1552886409692" expanded="false" signature="6:228" ph="..." />
+            <marker date="1552886409692" expanded="true" signature="230:326" ph="/// シリアルを取得します ... " />
+            <marker date="1552886409692" expanded="true" signature="370:4788" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="373:429" ph="/// シリアルの周期 ... " />
+            <marker date="1552886409692" expanded="true" signature="481:537" ph="/// シリアルの起動時にマイコンに送るメッセージ ... " />
+            <marker date="1552886409692" expanded="true" signature="606:671" ph="/// serialBootMessageをマイコンに送った時の返答 ... " />
+            <marker date="1552886409692" expanded="true" signature="740:785" ph="/// 返答を待つ時間（秒） ... " />
+            <marker date="1552886409692" expanded="true" signature="838:880" ph="/// シリアルポート ... " />
+            <marker date="1552886409692" expanded="true" signature="909:964" ph="/// 正常なシリアルポートに接続されたかどうか ... " />
+            <marker date="1552886409692" expanded="true" signature="1005:1049" ph="/// シリアル読みするか ... " />
+            <marker date="1552886409692" expanded="true" signature="1090:1148" ph="/// メッセージを読み込んでキューに追加するメソッド ... " />
+            <marker date="1552886409692" expanded="true" signature="1180:1232" ph="/// シリアルに届いたメッセージのキュー ... " />
+            <marker date="1552886409692" expanded="true" signature="1288:1384" ph="/// シリアルでメッセージを受信した時の処理のデリゲード ... " />
+            <marker date="1552886409692" expanded="true" signature="1447:1495" ph="/// メッセージ受信時のイベント ... " />
+            <marker date="1552886409692" expanded="true" signature="1563:1650" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="1655:1761" ph="/// シリアルポートを見つけます ... " />
+            <marker date="1552886409692" expanded="true" signature="1787:2162" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="1901:2011" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="1963:1980" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2044:2103" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2168:2359" ph="/// 指定した名前のポートを起動し、ブートメッセージを送り、返答があればそれにポートを設定します ... " />
+            <marker date="1552886409692" expanded="true" signature="2400:2779" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2585:2630" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2656:2678" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2702:2760" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2783:2882" ph="/// 現在portに入っているシリアルポートからの返答を待ちます ... " />
+            <marker date="1552886409692" expanded="true" signature="2911:3505" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2948:3486" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3016:3482" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3211:3405" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3296:3399" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3429:3477" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3508:3613" ph="/// 読み込み系を立ち上げます ... " />
+            <marker date="1552886409692" expanded="true" signature="3644:3823" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3827:3883" ph="/// メッセージが届いていたらキューに追加します ... " />
+            <marker date="1552886409692" expanded="true" signature="3911:4175" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3978:4172" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3987:4100" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4123:4134" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4232:4357" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4259:4354" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4361:4410" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1552886409692" expanded="true" signature="4436:4739" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4570:4611" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4648:4716" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4767:4786" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4845:4972" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <marker date="1552708009321" expanded="true" signature="6:78" ph="..." />
+            <marker date="1552708009321" expanded="true" signature="120:965" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="252:259" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="314:963" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="346:960" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="412:501" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="538:627" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="709:777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1552707176091" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552707176091" expanded="true" signature="157:264" ph="{...}" />
+            <marker date="1552707176091" expanded="true" signature="234:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1552707639293" expanded="true" signature="6:78" ph="..." />
+            <marker date="1552707639293" expanded="true" signature="123:1541" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="515:1172" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="1198:1310" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="1338:1452" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="1467:1539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <marker date="1552609050850" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552609050850" expanded="true" signature="121:482" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="221:306" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="338:363" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="397:424" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="447:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <marker date="1552608832709" expanded="false" signature="6:92" ph="..." />
+            <marker date="1552608832709" expanded="true" signature="117:140" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="184:959" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="250:282" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="534:957" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="599:670" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="691:932" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SerialReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/../ArduinoComTest/Assets/SerialActiver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TestReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SerialReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TestReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/../ArduinoComTest/Assets/SerialActiver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SerialHandler.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SerialReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="488" column="0" lean-forward="false" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ArduinoComTest/Assets/SerialActiver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TestReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KeyReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoSerialReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Client/ScreenChanger.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1552707176091" expanded="true" signature="6:100" ph="..." />
+            <marker date="1552707176091" expanded="true" signature="157:264" ph="{...}" />
+            <marker date="1552707176091" expanded="true" signature="234:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <marker date="1552708009321" expanded="true" signature="6:78" ph="..." />
+            <marker date="1552708009321" expanded="true" signature="120:965" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="252:259" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="314:963" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="346:960" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="412:501" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="538:627" ph="{...}" />
+            <marker date="1552708009321" expanded="true" signature="709:777" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <marker date="1552609050850" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552609050850" expanded="true" signature="121:482" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="221:306" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="338:363" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="397:424" ph="{...}" />
+            <marker date="1552609050850" expanded="true" signature="447:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1552707639293" expanded="true" signature="6:78" ph="..." />
+            <marker date="1552707639293" expanded="true" signature="123:1541" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="515:1172" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="1198:1310" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="1338:1452" ph="{...}" />
+            <marker date="1552707639293" expanded="true" signature="1467:1539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="41" column="18" lean-forward="false" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+          <folding>
+            <marker date="1552608832709" expanded="false" signature="6:92" ph="..." />
+            <marker date="1552608832709" expanded="true" signature="117:140" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="184:959" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="250:282" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="534:957" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="599:670" ph="{...}" />
+            <marker date="1552608832709" expanded="true" signature="691:932" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <marker date="1552886507404" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552886507404" expanded="true" signature="128:1054" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="356:397" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="452:785" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="483:782" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="548:608" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="713:767" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="833:1052" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="880:1049" ph="{...}" />
+            <marker date="1552886507404" expanded="true" signature="936:1045" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Test/TestShader.shader" />
+    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <marker date="1552886409692" expanded="false" signature="6:228" ph="..." />
+            <marker date="1552886409692" expanded="true" signature="230:326" ph="/// シリアルを取得します ... " />
+            <marker date="1552886409692" expanded="true" signature="370:4788" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="373:429" ph="/// シリアルの周期 ... " />
+            <marker date="1552886409692" expanded="true" signature="481:537" ph="/// シリアルの起動時にマイコンに送るメッセージ ... " />
+            <marker date="1552886409692" expanded="true" signature="606:671" ph="/// serialBootMessageをマイコンに送った時の返答 ... " />
+            <marker date="1552886409692" expanded="true" signature="740:785" ph="/// 返答を待つ時間（秒） ... " />
+            <marker date="1552886409692" expanded="true" signature="838:880" ph="/// シリアルポート ... " />
+            <marker date="1552886409692" expanded="true" signature="909:964" ph="/// 正常なシリアルポートに接続されたかどうか ... " />
+            <marker date="1552886409692" expanded="true" signature="1005:1049" ph="/// シリアル読みするか ... " />
+            <marker date="1552886409692" expanded="true" signature="1090:1148" ph="/// メッセージを読み込んでキューに追加するメソッド ... " />
+            <marker date="1552886409692" expanded="true" signature="1180:1232" ph="/// シリアルに届いたメッセージのキュー ... " />
+            <marker date="1552886409692" expanded="true" signature="1288:1384" ph="/// シリアルでメッセージを受信した時の処理のデリゲード ... " />
+            <marker date="1552886409692" expanded="true" signature="1447:1495" ph="/// メッセージ受信時のイベント ... " />
+            <marker date="1552886409692" expanded="true" signature="1563:1650" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="1655:1761" ph="/// シリアルポートを見つけます ... " />
+            <marker date="1552886409692" expanded="true" signature="1787:2162" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="1901:2011" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="1963:1980" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2044:2103" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2168:2359" ph="/// 指定した名前のポートを起動し、ブートメッセージを送り、返答があればそれにポートを設定します ... " />
+            <marker date="1552886409692" expanded="true" signature="2400:2779" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2585:2630" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2656:2678" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2702:2760" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2783:2882" ph="/// 現在portに入っているシリアルポートからの返答を待ちます ... " />
+            <marker date="1552886409692" expanded="true" signature="2911:3505" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="2948:3486" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3016:3482" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3211:3405" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3296:3399" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3429:3477" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3508:3613" ph="/// 読み込み系を立ち上げます ... " />
+            <marker date="1552886409692" expanded="true" signature="3644:3823" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3827:3883" ph="/// メッセージが届いていたらキューに追加します ... " />
+            <marker date="1552886409692" expanded="true" signature="3911:4175" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3978:4172" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="3987:4100" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4123:4134" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4232:4357" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4259:4354" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4361:4410" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1552886409692" expanded="true" signature="4436:4739" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4570:4611" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4648:4716" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4767:4786" ph="{...}" />
+            <marker date="1552886409692" expanded="true" signature="4845:4972" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
