@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fc6d86-26d1-4dcc-a1ae-61af88652960" name="デフォルト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Setting.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Setting.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" afterPath="$PROJECT_DIR$/Packages/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,12 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-              <folding />
+            <state relative-caret-position="337">
+              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+              <folding>
+                <marker date="1555283810272" expanded="false" signature="6:185" ph="..." />
+                <marker date="1555283810272" expanded="true" signature="228:1804" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="521:634" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="568:595" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
+                <marker date="1555283810272" expanded="true" signature="759:922" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
+                <marker date="1555283810272" expanded="true" signature="1051:1286" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="1171:1219" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="1250:1283" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
+                <marker date="1555283810272" expanded="true" signature="1359:1400" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="1404:1456" ph="/// 画面をシリアル接続状態に変更します ... " />
+                <marker date="1555283810272" expanded="true" signature="1492:1601" ph="{...}" />
+                <marker date="1555283810272" expanded="true" signature="1605:1658" ph="/// 画面をシリアル未接続状態に変更します ... " />
+                <marker date="1555283810272" expanded="true" signature="1691:1802" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -284,11 +295,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KendoAudioManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KendoAudioManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
               <folding>
                 <marker date="1555253114183" expanded="false" signature="6:78" ph="..." />
                 <marker date="1555253114183" expanded="true" signature="127:887" ph="{...}" />
@@ -343,11 +354,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
         <option value="$PROJECT_DIR$/Assets/Test/TestShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/AudioSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
       </list>
     </option>
   </component>
@@ -429,12 +440,12 @@
       <workItem from="1552485169150" duration="1953000" />
       <workItem from="1552605095864" duration="9646000" />
       <workItem from="1554438926656" duration="438000" />
-      <workItem from="1555226362756" duration="8318000" />
+      <workItem from="1555226362756" duration="8536000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32251000" />
+    <option name="totallyTimeSpent" value="32469000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Scripts/FileBrowser.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -943,7 +946,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="26" column="38" lean-forward="true" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <marker date="1555253114183" expanded="false" signature="6:78" ph="..." />
             <marker date="1555253114183" expanded="true" signature="127:887" ph="{...}" />
@@ -953,6 +956,31 @@
             <marker date="1555253114183" expanded="true" signature="653:699" ph="{...}" />
             <marker date="1555253114183" expanded="true" signature="743:885" ph="{...}" />
             <marker date="1555253114183" expanded="true" signature="799:879" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+          <folding>
+            <marker date="1555283810272" expanded="false" signature="6:185" ph="..." />
+            <marker date="1555283810272" expanded="true" signature="228:1804" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="521:634" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="568:595" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
+            <marker date="1555283810272" expanded="true" signature="759:922" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
+            <marker date="1555283810272" expanded="true" signature="1051:1286" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="1171:1219" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="1250:1283" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
+            <marker date="1555283810272" expanded="true" signature="1359:1400" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="1404:1456" ph="/// 画面をシリアル接続状態に変更します ... " />
+            <marker date="1555283810272" expanded="true" signature="1492:1601" ph="{...}" />
+            <marker date="1555283810272" expanded="true" signature="1605:1658" ph="/// 画面をシリアル未接続状態に変更します ... " />
+            <marker date="1555283810272" expanded="true" signature="1691:1802" ph="{...}" />
           </folding>
         </state>
       </provider>

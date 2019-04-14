@@ -52,7 +52,7 @@ public class TitleScreen : MonoBehaviour {
 	/// 設定画面に移動します
 	/// </summary>
 	public void setting() {
-		
+		SceneManager.LoadScene("Setting");
 	}
 	
 	/// <summary>
