@@ -60,8 +60,8 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	private void changeNotConnected() {
 		logText.text = MES_CONNECTED;
-		connectButton.interactable = false;
-		startButton.interactable = true;
+		startButton.interactable = false;
+		connectButton.interactable = true;
 	}
 	
 	/// <summary>
@@ -69,7 +69,7 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	private void changeConnected() {
 		logText.text = MES_UNCONNECTED;
-		startButton.interactable = false;
-		connectButton.interactable = true;
+		connectButton.interactable = false;
+		startButton.interactable = true;
 	}
 }

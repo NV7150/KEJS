@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fc6d86-26d1-4dcc-a1ae-61af88652960" name="デフォルト" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ippon.unity" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ippon.unity.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,8 +18,8 @@
       <file leaf-file-name="KendoSerialReciver.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="75">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding>
                 <marker date="1555226438180" expanded="false" signature="6:78" ph="..." />
                 <marker date="1555226438180" expanded="true" signature="128:1041" ph="{...}" />
@@ -43,25 +39,25 @@
       <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            <state relative-caret-position="637">
+              <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
               <folding>
-                <marker date="1555228087033" expanded="true" signature="6:185" ph="..." />
-                <marker date="1555228087033" expanded="true" signature="228:1770" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="521:634" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="568:595" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
-                <marker date="1555228087033" expanded="true" signature="759:922" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
-                <marker date="1555228087033" expanded="true" signature="1051:1286" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="1171:1219" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="1250:1283" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
-                <marker date="1555228087033" expanded="true" signature="1359:1366" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="1370:1422" ph="/// 画面をシリアル接続状態に変更します ... " />
-                <marker date="1555228087033" expanded="true" signature="1458:1567" ph="{...}" />
-                <marker date="1555228087033" expanded="true" signature="1571:1624" ph="/// 画面をシリアル未接続状態に変更します ... " />
-                <marker date="1555228087033" expanded="true" signature="1657:1768" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="6:185" ph="..." />
+                <marker date="1555228333907" expanded="true" signature="228:1770" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="521:634" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="568:595" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
+                <marker date="1555228333907" expanded="true" signature="759:922" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
+                <marker date="1555228333907" expanded="true" signature="1051:1286" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="1171:1219" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="1250:1283" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
+                <marker date="1555228333907" expanded="true" signature="1359:1366" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="1370:1422" ph="/// 画面をシリアル接続状態に変更します ... " />
+                <marker date="1555228333907" expanded="true" signature="1458:1567" ph="{...}" />
+                <marker date="1555228333907" expanded="true" signature="1571:1624" ph="/// 画面をシリアル未接続状態に変更します ... " />
+                <marker date="1555228333907" expanded="true" signature="1657:1768" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -70,9 +66,37 @@
       <file leaf-file-name="SerialReciver.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="-788">
               <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
+              <folding>
+                <marker date="1555214237948" expanded="false" signature="6:130" ph="..." />
+                <marker date="1555214237948" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+                <marker date="1555214237948" expanded="true" signature="321:2068" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+                <marker date="1555214237948" expanded="true" signature="463:511" ph="/// シングルトンのインスタンス ... " />
+                <marker date="1555214237948" expanded="true" signature="555:605" ph="/// 唯一のインスタンスを取得します ... " />
+                <marker date="1555214237948" expanded="true" signature="644:742" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="652:739" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="679:706" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="772:809" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="834:978" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="871:935" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1003:1066" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1035:1063" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1070:1204" ph="/// 登録してある全てのポートを起動させます ... " />
+                <marker date="1555214237948" expanded="true" signature="1234:1317" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1266:1288" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1321:1445" ph="/// マイコンポートを取得します ... " />
+                <marker date="1555214237948" expanded="true" signature="1480:1575" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1512:1556" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1579:1722" ph="/// マイコンポートを取得します ... " />
+                <marker date="1555214237948" expanded="true" signature="1767:1881" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1799:1862" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1885:1934" ph="/// 読み込みスレッドを終了します ... " />
+                <marker date="1555214237948" expanded="true" signature="1962:2017" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="1994:2014" ph="{...}" />
+                <marker date="1555214237948" expanded="true" signature="2045:2066" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,9 +114,13 @@
       <file leaf-file-name="PlNumText.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="105">
               <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1552707176000" expanded="false" signature="6:100" ph="..." />
+                <marker date="1552707176000" expanded="true" signature="157:264" ph="{...}" />
+                <marker date="1552707176000" expanded="true" signature="234:262" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,9 +128,16 @@
       <file leaf-file-name="ScreenChanger.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
+            <state relative-caret-position="435">
               <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-              <folding />
+              <folding>
+                <marker date="1552707639000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552707639000" expanded="true" signature="123:1541" ph="{...}" />
+                <marker date="1552707639000" expanded="true" signature="515:1172" ph="{...}" />
+                <marker date="1552707639000" expanded="true" signature="1198:1310" ph="{...}" />
+                <marker date="1552707639000" expanded="true" signature="1338:1452" ph="{...}" />
+                <marker date="1552707639000" expanded="true" signature="1467:1539" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,9 +145,16 @@
       <file leaf-file-name="TestReciver.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="240">
               <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding />
+              <folding>
+                <marker date="1552609050000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552609050000" expanded="true" signature="121:482" ph="{...}" />
+                <marker date="1552609050000" expanded="true" signature="221:306" ph="{...}" />
+                <marker date="1552609050000" expanded="true" signature="338:363" ph="{...}" />
+                <marker date="1552609050000" expanded="true" signature="397:424" ph="{...}" />
+                <marker date="1552609050000" expanded="true" signature="447:480" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,12 +287,12 @@
       <workItem from="1552485169150" duration="1953000" />
       <workItem from="1552605095864" duration="9646000" />
       <workItem from="1554438926656" duration="438000" />
-      <workItem from="1555226362756" duration="1471000" />
+      <workItem from="1555226362756" duration="1676000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25404000" />
+    <option name="totallyTimeSpent" value="25609000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,7 +380,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1552707176000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1552707176000" expanded="true" signature="157:264" ph="{...}" />
+            <marker date="1552707176000" expanded="true" signature="234:262" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -346,7 +392,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1552707639000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552707639000" expanded="true" signature="123:1541" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="515:1172" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1198:1310" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1338:1452" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1467:1539" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -354,7 +407,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1552609050000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552609050000" expanded="true" signature="121:482" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="221:306" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="338:363" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="397:424" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="447:480" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,7 +430,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
+          <folding>
+            <marker date="1555214237948" expanded="false" signature="6:130" ph="..." />
+            <marker date="1555214237948" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="321:2068" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+            <marker date="1555214237948" expanded="true" signature="463:511" ph="/// シングルトンのインスタンス ... " />
+            <marker date="1555214237948" expanded="true" signature="555:605" ph="/// 唯一のインスタンスを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="644:742" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="652:739" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="679:706" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="772:809" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="834:978" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="871:935" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1003:1066" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1035:1063" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1070:1204" ph="/// 登録してある全てのポートを起動させます ... " />
+            <marker date="1555214237948" expanded="true" signature="1234:1317" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1266:1288" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1321:1445" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="1480:1575" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1512:1556" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1579:1722" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="1767:1881" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1799:1862" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1885:1934" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555214237948" expanded="true" signature="1962:2017" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1994:2014" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="2045:2066" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -406,7 +494,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2805">
           <caret line="187" column="16" lean-forward="false" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
-          <folding />
+          <folding>
+            <marker date="1555214237948" expanded="false" signature="6:130" ph="..." />
+            <marker date="1555214237948" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="321:2068" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+            <marker date="1555214237948" expanded="true" signature="463:511" ph="/// シングルトンのインスタンス ... " />
+            <marker date="1555214237948" expanded="true" signature="555:605" ph="/// 唯一のインスタンスを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="644:742" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="652:739" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="679:706" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="772:809" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="834:978" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="871:935" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1003:1066" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1035:1063" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1070:1204" ph="/// 登録してある全てのポートを起動させます ... " />
+            <marker date="1555214237948" expanded="true" signature="1234:1317" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1266:1288" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1321:1445" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="1480:1575" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1512:1556" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1579:1722" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="1767:1881" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1799:1862" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1885:1934" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555214237948" expanded="true" signature="1962:2017" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1994:2014" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="2045:2066" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -422,7 +538,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1552707176000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1552707176000" expanded="true" signature="157:264" ph="{...}" />
+            <marker date="1552707176000" expanded="true" signature="234:262" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -430,7 +550,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
+          <folding>
+            <marker date="1552707639000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552707639000" expanded="true" signature="123:1541" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="515:1172" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1198:1310" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1338:1452" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1467:1539" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -438,7 +565,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
+          <folding>
+            <marker date="1552609050000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552609050000" expanded="true" signature="121:482" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="221:306" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="338:363" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="397:424" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="447:480" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -491,34 +625,10 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoSerialReciver.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Client/ScreenChanger.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -542,16 +652,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="-788">
           <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
+          <folding>
+            <marker date="1555214237948" expanded="false" signature="6:130" ph="..." />
+            <marker date="1555214237948" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="321:2068" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+            <marker date="1555214237948" expanded="true" signature="463:511" ph="/// シングルトンのインスタンス ... " />
+            <marker date="1555214237948" expanded="true" signature="555:605" ph="/// 唯一のインスタンスを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="644:742" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="652:739" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="679:706" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="772:809" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="834:978" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="871:935" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1003:1066" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1035:1063" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1070:1204" ph="/// 登録してある全てのポートを起動させます ... " />
+            <marker date="1555214237948" expanded="true" signature="1234:1317" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1266:1288" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1321:1445" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="1480:1575" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1512:1556" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1579:1722" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555214237948" expanded="true" signature="1767:1881" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1799:1862" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1885:1934" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555214237948" expanded="true" signature="1962:2017" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="1994:2014" ph="{...}" />
+            <marker date="1555214237948" expanded="true" signature="2045:2066" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <marker date="1555226438180" expanded="false" signature="6:78" ph="..." />
             <marker date="1555226438180" expanded="true" signature="128:1041" ph="{...}" />
@@ -567,27 +705,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <marker date="1552609050000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552609050000" expanded="true" signature="121:482" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="221:306" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="338:363" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="397:424" ph="{...}" />
+            <marker date="1552609050000" expanded="true" signature="447:480" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <marker date="1552707639000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552707639000" expanded="true" signature="123:1541" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="515:1172" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1198:1310" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1338:1452" ph="{...}" />
+            <marker date="1552707639000" expanded="true" signature="1467:1539" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1552707176000" expanded="false" signature="6:100" ph="..." />
+            <marker date="1552707176000" expanded="true" signature="157:264" ph="{...}" />
+            <marker date="1552707176000" expanded="true" signature="234:262" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        <state relative-caret-position="637">
+          <caret line="72" column="40" lean-forward="false" selection-start-line="72" selection-start-column="40" selection-end-line="72" selection-end-column="40" />
           <folding>
-            <marker date="1555228087033" expanded="true" signature="6:185" ph="..." />
-            <marker date="1555228087033" expanded="true" signature="228:1770" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="521:634" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="568:595" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
-            <marker date="1555228087033" expanded="true" signature="759:922" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
-            <marker date="1555228087033" expanded="true" signature="1051:1286" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="1171:1219" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="1250:1283" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
-            <marker date="1555228087033" expanded="true" signature="1359:1366" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="1370:1422" ph="/// 画面をシリアル接続状態に変更します ... " />
-            <marker date="1555228087033" expanded="true" signature="1458:1567" ph="{...}" />
-            <marker date="1555228087033" expanded="true" signature="1571:1624" ph="/// 画面をシリアル未接続状態に変更します ... " />
-            <marker date="1555228087033" expanded="true" signature="1657:1768" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="6:185" ph="..." />
+            <marker date="1555228333907" expanded="true" signature="228:1770" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="521:634" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="568:595" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
+            <marker date="1555228333907" expanded="true" signature="759:922" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
+            <marker date="1555228333907" expanded="true" signature="1051:1286" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="1171:1219" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="1250:1283" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
+            <marker date="1555228333907" expanded="true" signature="1359:1366" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="1370:1422" ph="/// 画面をシリアル接続状態に変更します ... " />
+            <marker date="1555228333907" expanded="true" signature="1458:1567" ph="{...}" />
+            <marker date="1555228333907" expanded="true" signature="1571:1624" ph="/// 画面をシリアル未接続状態に変更します ... " />
+            <marker date="1555228333907" expanded="true" signature="1657:1768" ph="{...}" />
           </folding>
         </state>
       </provider>
