@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class KendoSerialReciver : MonoBehaviour {
-	[SerializeField] private SerialReciver reciver;
 //	[SerializeField] private string hitMes = "hit";
 	[SerializeField] private KendoManager kendoMan;
 
@@ -11,7 +10,7 @@ public class KendoSerialReciver : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		reciver.OnRead += onReciveMessage;
+		SerialReciver.INSTANCE.getPort("Sensor").OnRecived += onReciveMessage;
 	}
 	
 	// Update is called once per frame

@@ -11,6 +11,14 @@
               <e p="Unity3DRider.cs" t="Include" />
             </e>
           </e>
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Scripts" t="Include">
           <e p="Application" t="Include">
@@ -24,7 +32,9 @@
             <e p="KendoManager.cs" t="Include" />
             <e p="KendoSerialReciver.cs" t="Include" />
             <e p="KeyReciver.cs" t="Include" />
+            <e p="MiconPort.cs" t="Include" />
             <e p="SerialReciver.cs" t="Include" />
+            <e p="TitleScreen.cs" t="Include" />
           </e>
         </e>
       </e>
