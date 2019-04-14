@@ -43,10 +43,14 @@
             <e p="ScreenChanger.cs" t="Include" />
             <e p="TestReciver.cs" t="Include" />
           </e>
+          <e p="DataBase" t="Include">
+            <e p="SelectAudios.cs" t="Include" />
+          </e>
           <e p="Object" t="Include">
             <e p="PlNumText.cs" t="Include" />
           </e>
           <e p="System" t="Include">
+            <e p="KendoAudioManager.cs" t="Include" />
             <e p="KendoManager.cs" t="Include" />
             <e p="KendoSerialReciver.cs" t="Include" />
             <e p="KeyReciver.cs" t="Include" />
