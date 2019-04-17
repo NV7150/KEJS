@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fc6d86-26d1-4dcc-a1ae-61af88652960" name="デフォルト" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SelectArgents.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/SelectArgents.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Setting.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Setting.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs.meta" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,38 +26,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KendoSerialReciver.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
+      <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="180">
+              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+              <folding>
+                <marker date="1555483735998" expanded="true" signature="6:185" ph="..." />
+                <marker date="1555483735998" expanded="true" signature="228:1918" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="567:738" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="583:702" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="631:660" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="742:841" ph="/// ゲーム画面に移行します ... " />
+                <marker date="1555483735998" expanded="true" signature="863:1036" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="1040:1141" ph="/// シリアルポートに接続します ... " />
+                <marker date="1555483735998" expanded="true" signature="1165:1400" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="1285:1333" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="1364:1397" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="1404:1449" ph="/// 設定画面に移動します ... " />
+                <marker date="1555483735998" expanded="true" signature="1473:1514" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="1518:1570" ph="/// 画面をシリアル接続状態に変更します ... " />
+                <marker date="1555483735998" expanded="true" signature="1606:1715" ph="{...}" />
+                <marker date="1555483735998" expanded="true" signature="1719:1772" ph="/// 画面をシリアル未接続状態に変更します ... " />
+                <marker date="1555483735998" expanded="true" signature="1805:1916" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
+      <file leaf-file-name="KendoAudioManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/KendoAudioManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            <state relative-caret-position="75">
+              <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
-                <marker date="1555283810272" expanded="false" signature="6:185" ph="..." />
-                <marker date="1555283810272" expanded="true" signature="228:1804" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="521:634" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="568:595" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
-                <marker date="1555283810272" expanded="true" signature="759:922" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
-                <marker date="1555283810272" expanded="true" signature="1051:1286" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="1171:1219" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="1250:1283" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
-                <marker date="1555283810272" expanded="true" signature="1359:1400" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="1404:1456" ph="/// 画面をシリアル接続状態に変更します ... " />
-                <marker date="1555283810272" expanded="true" signature="1492:1601" ph="{...}" />
-                <marker date="1555283810272" expanded="true" signature="1605:1658" ph="/// 画面をシリアル未接続状態に変更します ... " />
-                <marker date="1555283810272" expanded="true" signature="1691:1802" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="6:78" ph="..." />
+                <marker date="1555484196876" expanded="true" signature="127:896" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="293:489" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="510:554" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="585:629" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="662:708" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="752:894" ph="{...}" />
+                <marker date="1555484196876" expanded="true" signature="808:888" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -54,27 +76,60 @@
       <file leaf-file-name="SettingSceen.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+            <state relative-caret-position="255">
+              <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
               <folding>
-                <marker date="1555252445192" expanded="true" signature="6:249" ph="..." />
-                <marker date="1555252445192" expanded="true" signature="273:295" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="339:2171" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="483:490" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="545:549" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="576:610" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="637:671" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="700:736" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="758:797" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="801:909" ph="/// dutyに指定された役割にオーディオファイルを登録します ... " />
-                <marker date="1555252445192" expanded="true" signature="951:1263" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="977:1259" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="1267:1368" ph="/// 選択が選ばれた時に呼ばれるデリゲードメソッド ... " />
-                <marker date="1555252445192" expanded="true" signature="1403:1463" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="1467:1618" ph="/// パスに指定されたものをchoosingAudioDutyに指定されたものに登録します ... " />
-                <marker date="1555252445192" expanded="true" signature="1649:2169" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="1705:2166" ph="{...}" />
-                <marker date="1555252445192" expanded="true" signature="1945:2162" ph="{...}" />
+                <marker date="1555516487763" expanded="false" signature="6:279" ph="..." />
+                <marker date="1555516487763" expanded="true" signature="303:325" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="369:1933" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="554:667" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="722:726" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="756:797" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="827:868" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="900:943" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="965:1004" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="1008:1109" ph="/// 選択が選ばれた時に呼ばれるデリゲードメソッド ... " />
+                <marker date="1555516487763" expanded="true" signature="1159:1197" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="1201:1352" ph="/// パスに指定されたものをchoosingAudioDutyに指定されたものに登録します ... " />
+                <marker date="1555516487763" expanded="true" signature="1411:1931" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="1467:1928" ph="{...}" />
+                <marker date="1555516487763" expanded="true" signature="1707:1924" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileForm.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/FileForm.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+              <folding>
+                <marker date="1555516896591" expanded="false" signature="6:139" ph="..." />
+                <marker date="1555516896591" expanded="true" signature="179:1217" ph="{...}" />
+                <marker date="1555516896591" expanded="true" signature="535:575" ph="{...}" />
+                <marker date="1555516896591" expanded="true" signature="602:663" ph="{...}" />
+                <marker date="1555516896591" expanded="true" signature="692:979" ph="{...}" />
+                <marker date="1555516896591" expanded="true" signature="727:973" ph="{...}" />
+                <marker date="1555516896591" expanded="true" signature="1025:1215" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FileNames.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/FileNames.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+              <folding>
+                <marker date="1555488283188" expanded="true" signature="6:92" ph="..." />
+                <marker date="1555488283188" expanded="true" signature="124:737" ph="{...}" />
+                <marker date="1555488283188" expanded="true" signature="262:376" ph="{...}" />
+                <marker date="1555488283188" expanded="true" signature="302:346" ph="{...}" />
+                <marker date="1555488283188" expanded="true" signature="435:578" ph="{...}" />
+                <marker date="1555488283188" expanded="true" signature="476:522" ph="{...}" />
+                <marker date="1555488283188" expanded="true" signature="638:735" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -84,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
               <folding>
                 <marker date="1555251513472" expanded="false" signature="6:78" ph="..." />
                 <marker date="1555251513472" expanded="true" signature="113:520" ph="{...}" />
@@ -99,11 +154,10 @@
       <file leaf-file-name="FileBrowser.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Scripts/FileBrowser.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="14700">
               <caret line="986" column="0" lean-forward="false" selection-start-line="986" selection-start-column="0" selection-end-line="986" selection-end-column="0" />
               <folding>
                 <marker date="1530788350000" expanded="false" signature="6:132" ph="..." />
-                <marker date="1530788350000" expanded="true" signature="161:29526" ph="{...}" />
                 <marker date="1530788350000" expanded="true" signature="223:29524" ph="{...}" />
                 <marker date="1530788350000" expanded="true" signature="299:637" ph="Structs" />
                 <marker date="1530788350000" expanded="true" signature="361:420" ph="{...}" />
@@ -247,41 +301,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PlNumText.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScreenChanger.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestReciver.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KendoManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+            <state relative-caret-position="240">
+              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
               <folding>
                 <marker date="1552608832000" expanded="false" signature="6:92" ph="..." />
                 <marker date="1552608832000" expanded="true" signature="117:140" ph="{...}" />
@@ -295,20 +319,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KendoAudioManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs">
+      <file leaf-file-name="KendoSerialReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="45">
+              <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
               <folding>
-                <marker date="1555253114183" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555253114183" expanded="true" signature="127:887" ph="{...}" />
-                <marker date="1555253114183" expanded="true" signature="293:480" ph="{...}" />
-                <marker date="1555253114183" expanded="true" signature="501:545" ph="{...}" />
-                <marker date="1555253114183" expanded="true" signature="576:620" ph="{...}" />
-                <marker date="1555253114183" expanded="true" signature="653:699" ph="{...}" />
-                <marker date="1555253114183" expanded="true" signature="743:885" ph="{...}" />
-                <marker date="1555253114183" expanded="true" signature="799:879" ph="{...}" />
+                <marker date="1555468735729" expanded="false" signature="6:78" ph="..." />
+                <marker date="1555468735729" expanded="true" signature="128:990" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="256:333" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="388:721" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="419:718" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="484:544" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="649:703" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="769:988" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="816:985" ph="{...}" />
+                <marker date="1555468735729" expanded="true" signature="872:981" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KeyReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1552708009000" expanded="false" signature="6:78" ph="..." />
+                <marker date="1552708009000" expanded="true" signature="120:965" ph="{...}" />
+                <marker date="1552708009000" expanded="true" signature="252:259" ph="{...}" />
+                <marker date="1552708009000" expanded="true" signature="314:963" ph="{...}" />
+                <marker date="1552708009000" expanded="true" signature="346:960" ph="{...}" />
+                <marker date="1552708009000" expanded="true" signature="412:501" ph="{...}" />
+                <marker date="1552708009000" expanded="true" signature="538:627" ph="{...}" />
+                <marker date="1552708009000" expanded="true" signature="709:777" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -323,16 +368,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/Unity3DRider.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Object/FileForm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Scripts/FileBrowser.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/FileNames.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../ArduinoComTest/Assets/SerialActiver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Application/KendoAudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -351,14 +399,20 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
         <option value="$PROJECT_DIR$/Assets/Test/TestShader.shader" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/AudioSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/DebugReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Application/AudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Application/KendoAudioManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/FileNames.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Object/FileForm.cs" />
       </list>
     </option>
   </component>
@@ -368,8 +422,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="3" />
+    <option name="y" value="38" />
     <option name="width" value="1440" />
     <option name="height" value="877" />
   </component>
@@ -440,12 +495,15 @@
       <workItem from="1552485169150" duration="1953000" />
       <workItem from="1552605095864" duration="9646000" />
       <workItem from="1554438926656" duration="438000" />
-      <workItem from="1555226362756" duration="8536000" />
+      <workItem from="1555226362756" duration="9456000" />
+      <workItem from="1555379765672" duration="343000" />
+      <workItem from="1555468644091" duration="4290000" />
+      <workItem from="1555515957092" duration="923000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32469000" />
+    <option name="totallyTimeSpent" value="38945000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,7 +515,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -468,7 +526,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25679544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26752505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -494,35 +552,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="43" lean-forward="false" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,7 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -538,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -562,7 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -570,24 +600,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Test/TestShader.shader" />
-    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2805">
           <caret line="187" column="16" lean-forward="false" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -603,7 +623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,70 +697,104 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoSerialReciver.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/KendoManager.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Client/ScreenChanger.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Test/TestShader.shader" />
-    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" lean-forward="false" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-713">
-          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../DoorDreeming/Assets/Scripts/SerialReciver.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/TestReciver.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/ScreenChanger.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="465">
           <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/DebugReciver.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="139" column="41" lean-forward="false" selection-start-line="139" selection-start-column="41" selection-end-line="139" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <folding>
+            <marker date="1552608832000" expanded="false" signature="6:92" ph="..." />
+            <marker date="1552608832000" expanded="true" signature="117:140" ph="{...}" />
+            <marker date="1552608832000" expanded="true" signature="184:959" ph="{...}" />
+            <marker date="1552608832000" expanded="true" signature="250:282" ph="{...}" />
+            <marker date="1552608832000" expanded="true" signature="534:957" ph="{...}" />
+            <marker date="1552608832000" expanded="true" signature="599:670" ph="{...}" />
+            <marker date="1552608832000" expanded="true" signature="691:932" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
+          <folding>
+            <marker date="1555468735729" expanded="false" signature="6:78" ph="..." />
+            <marker date="1555468735729" expanded="true" signature="128:990" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="256:333" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="388:721" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="419:718" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="484:544" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="649:703" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="769:988" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="816:985" ph="{...}" />
+            <marker date="1555468735729" expanded="true" signature="872:981" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/AudioManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1552708009000" expanded="false" signature="6:78" ph="..." />
+            <marker date="1552708009000" expanded="true" signature="120:965" ph="{...}" />
+            <marker date="1552708009000" expanded="true" signature="252:259" ph="{...}" />
+            <marker date="1552708009000" expanded="true" signature="314:963" ph="{...}" />
+            <marker date="1552708009000" expanded="true" signature="346:960" ph="{...}" />
+            <marker date="1552708009000" expanded="true" signature="412:501" ph="{...}" />
+            <marker date="1552708009000" expanded="true" signature="538:627" ph="{...}" />
+            <marker date="1552708009000" expanded="true" signature="709:777" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Plugins/SimpleFileBrowser/Scripts/FileBrowser.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
+        <state relative-caret-position="14700">
           <caret line="986" column="0" lean-forward="false" selection-start-line="986" selection-start-column="0" selection-end-line="986" selection-end-column="0" />
           <folding>
             <marker date="1530788350000" expanded="false" signature="6:132" ph="..." />
-            <marker date="1530788350000" expanded="true" signature="161:29526" ph="{...}" />
             <marker date="1530788350000" expanded="true" signature="223:29524" ph="{...}" />
             <marker date="1530788350000" expanded="true" signature="299:637" ph="Structs" />
             <marker date="1530788350000" expanded="true" signature="361:420" ph="{...}" />
@@ -886,10 +937,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+          <folding>
+            <marker date="1555483735998" expanded="true" signature="6:185" ph="..." />
+            <marker date="1555483735998" expanded="true" signature="228:1918" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="567:738" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="583:702" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="631:660" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="742:841" ph="/// ゲーム画面に移行します ... " />
+            <marker date="1555483735998" expanded="true" signature="863:1036" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="1040:1141" ph="/// シリアルポートに接続します ... " />
+            <marker date="1555483735998" expanded="true" signature="1165:1400" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="1285:1333" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="1364:1397" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="1404:1449" ph="/// 設定画面に移動します ... " />
+            <marker date="1555483735998" expanded="true" signature="1473:1514" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="1518:1570" ph="/// 画面をシリアル接続状態に変更します ... " />
+            <marker date="1555483735998" expanded="true" signature="1606:1715" ph="{...}" />
+            <marker date="1555483735998" expanded="true" signature="1719:1772" ph="/// 画面をシリアル未接続状態に変更します ... " />
+            <marker date="1555483735998" expanded="true" signature="1805:1916" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <caret line="4" column="28" lean-forward="false" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding>
             <marker date="1555251513472" expanded="false" signature="6:78" ph="..." />
             <marker date="1555251513472" expanded="true" signature="113:520" ph="{...}" />
@@ -900,87 +977,75 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/FileNames.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+          <folding>
+            <marker date="1555488283188" expanded="true" signature="6:92" ph="..." />
+            <marker date="1555488283188" expanded="true" signature="124:737" ph="{...}" />
+            <marker date="1555488283188" expanded="true" signature="262:376" ph="{...}" />
+            <marker date="1555488283188" expanded="true" signature="302:346" ph="{...}" />
+            <marker date="1555488283188" expanded="true" signature="435:578" ph="{...}" />
+            <marker date="1555488283188" expanded="true" signature="476:522" ph="{...}" />
+            <marker date="1555488283188" expanded="true" signature="638:735" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Application/KendoAudioManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="46" lean-forward="false" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+          <folding>
+            <marker date="1555484196876" expanded="true" signature="6:78" ph="..." />
+            <marker date="1555484196876" expanded="true" signature="127:896" ph="{...}" />
+            <marker date="1555484196876" expanded="true" signature="293:489" ph="{...}" />
+            <marker date="1555484196876" expanded="true" signature="510:554" ph="{...}" />
+            <marker date="1555484196876" expanded="true" signature="585:629" ph="{...}" />
+            <marker date="1555484196876" expanded="true" signature="662:708" ph="{...}" />
+            <marker date="1555484196876" expanded="true" signature="752:894" ph="{...}" />
+            <marker date="1555484196876" expanded="true" signature="808:888" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="42" column="37" lean-forward="false" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="37" />
+        <state relative-caret-position="255">
+          <caret line="26" column="44" lean-forward="false" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
-            <marker date="1555252445192" expanded="true" signature="6:249" ph="..." />
-            <marker date="1555252445192" expanded="true" signature="273:295" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="339:2171" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="483:490" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="545:549" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="576:610" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="637:671" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="700:736" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="758:797" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="801:909" ph="/// dutyに指定された役割にオーディオファイルを登録します ... " />
-            <marker date="1555252445192" expanded="true" signature="951:1263" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="977:1259" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="1267:1368" ph="/// 選択が選ばれた時に呼ばれるデリゲードメソッド ... " />
-            <marker date="1555252445192" expanded="true" signature="1403:1463" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="1467:1618" ph="/// パスに指定されたものをchoosingAudioDutyに指定されたものに登録します ... " />
-            <marker date="1555252445192" expanded="true" signature="1649:2169" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="1705:2166" ph="{...}" />
-            <marker date="1555252445192" expanded="true" signature="1945:2162" ph="{...}" />
+            <marker date="1555516487763" expanded="false" signature="6:279" ph="..." />
+            <marker date="1555516487763" expanded="true" signature="303:325" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="369:1933" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="554:667" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="722:726" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="756:797" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="827:868" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="900:943" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="965:1004" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="1008:1109" ph="/// 選択が選ばれた時に呼ばれるデリゲードメソッド ... " />
+            <marker date="1555516487763" expanded="true" signature="1159:1197" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="1201:1352" ph="/// パスに指定されたものをchoosingAudioDutyに指定されたものに登録します ... " />
+            <marker date="1555516487763" expanded="true" signature="1411:1931" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="1467:1928" ph="{...}" />
+            <marker date="1555516487763" expanded="true" signature="1707:1924" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/FileForm.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="23" column="31" lean-forward="false" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        <state relative-caret-position="285">
+          <caret line="24" column="53" lean-forward="false" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
           <folding>
-            <marker date="1552608832000" expanded="false" signature="6:92" ph="..." />
-            <marker date="1552608832000" expanded="true" signature="117:140" ph="{...}" />
-            <marker date="1552608832000" expanded="true" signature="184:959" ph="{...}" />
-            <marker date="1552608832000" expanded="true" signature="250:282" ph="{...}" />
-            <marker date="1552608832000" expanded="true" signature="534:957" ph="{...}" />
-            <marker date="1552608832000" expanded="true" signature="599:670" ph="{...}" />
-            <marker date="1552608832000" expanded="true" signature="691:932" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <marker date="1555253114183" expanded="false" signature="6:78" ph="..." />
-            <marker date="1555253114183" expanded="true" signature="127:887" ph="{...}" />
-            <marker date="1555253114183" expanded="true" signature="293:480" ph="{...}" />
-            <marker date="1555253114183" expanded="true" signature="501:545" ph="{...}" />
-            <marker date="1555253114183" expanded="true" signature="576:620" ph="{...}" />
-            <marker date="1555253114183" expanded="true" signature="653:699" ph="{...}" />
-            <marker date="1555253114183" expanded="true" signature="743:885" ph="{...}" />
-            <marker date="1555253114183" expanded="true" signature="799:879" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding>
-            <marker date="1555283810272" expanded="false" signature="6:185" ph="..." />
-            <marker date="1555283810272" expanded="true" signature="228:1804" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="521:634" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="568:595" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="638:737" ph="/// ゲーム画面に移行します ... " />
-            <marker date="1555283810272" expanded="true" signature="759:922" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="926:1027" ph="/// シリアルポートに接続します ... " />
-            <marker date="1555283810272" expanded="true" signature="1051:1286" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="1171:1219" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="1250:1283" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="1290:1335" ph="/// 設定画面に移動します ... " />
-            <marker date="1555283810272" expanded="true" signature="1359:1400" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="1404:1456" ph="/// 画面をシリアル接続状態に変更します ... " />
-            <marker date="1555283810272" expanded="true" signature="1492:1601" ph="{...}" />
-            <marker date="1555283810272" expanded="true" signature="1605:1658" ph="/// 画面をシリアル未接続状態に変更します ... " />
-            <marker date="1555283810272" expanded="true" signature="1691:1802" ph="{...}" />
+            <marker date="1555516896591" expanded="false" signature="6:139" ph="..." />
+            <marker date="1555516896591" expanded="true" signature="179:1217" ph="{...}" />
+            <marker date="1555516896591" expanded="true" signature="535:575" ph="{...}" />
+            <marker date="1555516896591" expanded="true" signature="602:663" ph="{...}" />
+            <marker date="1555516896591" expanded="true" signature="692:979" ph="{...}" />
+            <marker date="1555516896591" expanded="true" signature="727:973" ph="{...}" />
+            <marker date="1555516896591" expanded="true" signature="1025:1215" ph="{...}" />
           </folding>
         </state>
       </provider>

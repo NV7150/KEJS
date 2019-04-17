@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class KendoSerialReciver : MonoBehaviour {
-//	[SerializeField] private string hitMes = "hit";
 	[SerializeField] private KendoManager kendoMan;
 
 	private int lastHit = -1;

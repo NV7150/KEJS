@@ -13,6 +13,7 @@ public class KendoAudioManager : MonoBehaviour {
         kendoMan.OnHit += hitPlay;
         kendoMan.OnIppon += ipponPlay;
         bgmPlay();
+        
     }
 
     void bgmPlay() {

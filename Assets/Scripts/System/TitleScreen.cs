@@ -10,16 +10,21 @@ public class TitleScreen : MonoBehaviour {
 	[SerializeField] private Text logText;
 	[SerializeField] private Button startButton;
 	[SerializeField] private Button connectButton;
+	[SerializeField] private bool debug = false;
 
 	private const String MES_UNCONNECTED = "Not-Connected";
 	private const String MES_CONNECTED = "Connected";
 
 	// Use this for initialization
 	void Start () {
-		if (SerialReciver.INSTANCE.IsAllPortReady) {
-			changeConnected();
+		if (!debug) {
+			if (SerialReciver.INSTANCE.IsAllPortReady) {
+				changeConnected();
+			} else {
+				changeNotConnected();
+			}
 		} else {
-			changeNotConnected();
+			changeConnected();
 		}
 	}
 	
@@ -28,7 +33,7 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	/// <exception cref="Exception">異常な状態の時</exception>
 	public void start() {
-		if (!SerialReciver.INSTANCE.IsAllPortReady)
+		if (!debug && !SerialReciver.INSTANCE.IsAllPortReady)
 			throw new Exception("Tried to start game though port isn't ready");
 		
 		SceneManager.LoadScene("GameScene");

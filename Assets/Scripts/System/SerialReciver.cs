@@ -15,7 +15,10 @@ public class SerialReciver : MonoBehaviour {
 	/// 対象とするマイコンポート
 	/// </summary>
 	[SerializeField] private List<MiconPort> ports;
-
+	
+	/// <summary>
+	/// 全てのポートがつながったか
+	/// </summary>
 	private bool isAllPortReady = false;
 	
 	/// <summary>
@@ -62,6 +65,7 @@ public class SerialReciver : MonoBehaviour {
 	/// <exception cref="PortNotFoundException">一つでもポートが見つからない時に投げられます</exception>
 	public void startAllPorts() {
 		foreach (var port in ports) {
+			Debug.Log("into");
 			port.start();
 		}
 

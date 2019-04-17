@@ -545,6 +545,7 @@ MonoBehaviour:
   logText: {fileID: 1179442147}
   startButton: {fileID: 173487129}
   connectButton: {fileID: 1834396565}
+  debug: 1
 --- !u!1 &950354368
 GameObject:
   m_ObjectHideFlags: 0

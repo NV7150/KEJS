@@ -125,7 +125,7 @@ public class MiconPort {
         string[] ports;
         
         #if UNITY_EDITOR_OSX 
-                ports = Directory.GetFiles("/dev/","cu.*");
+                ports = Directory.GetFiles("/dev/","cu.SLAB*");
         #elif UNITY_STANDALONE_OSX
 			ports = Directory.GetFiles("/dev/","tty.*");
 		#elif UNITY_STANDALONE_LINUX
@@ -172,6 +172,7 @@ public class MiconPort {
         }
 
         try {
+            Debug.Log("send " + sendMessage);
             port.Write(new byte[] {sendMessage}, 0, 1);
         } catch (TimeoutException) {
             return false;

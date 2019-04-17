@@ -359,16 +359,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 674512526}
+      objectReference: {fileID: 384917076}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: chooseHit
+      value: onPushed
       objectReference: {fileID: 0}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: filters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: title
+      value: hit
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: defFilter
+      value: .wav
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: filters.Array.data[0]
+      value: .wav
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a484814b68d48c29a6a970cc5e094a, type: 3}
@@ -378,6 +398,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 384917074}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &384917076 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+    type: 3}
+  m_PrefabInstance: {fileID: 384917074}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21dd5ea985c294839903bc67b9d5f65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &428208964
 GameObject:
   m_ObjectHideFlags: 0
@@ -476,6 +508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b3cbc4f019614ed8bcec2c6abddbec9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bgmForm: {fileID: 5275490180081738914}
+  hitForm: {fileID: 384917076}
+  ipponForm: {fileID: 2121511781}
 --- !u!4 &674512527
 Transform:
   m_ObjectHideFlags: 0
@@ -904,7 +939,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.20048587}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.025017}
+  m_AnchoredPosition: {x: 0, y: -0.025024414}
   m_SizeDelta: {x: 0, y: -0.049988}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1654238160
@@ -1104,16 +1139,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 674512526}
+      objectReference: {fileID: 2121511781}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: chooseIppon
+      value: onPushed
       objectReference: {fileID: 0}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: filters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: defFilter
+      value: .wav
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: title
+      value: ippon
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: filters.Array.data[0]
+      value: .wav
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a484814b68d48c29a6a970cc5e094a, type: 3}
@@ -1123,6 +1178,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 2121511779}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2121511781 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+    type: 3}
+  m_PrefabInstance: {fileID: 2121511779}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21dd5ea985c294839903bc67b9d5f65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &5275490180081738913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1280,23 +1347,65 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2544229316240979946, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 674512526}
+      objectReference: {fileID: 5275490180081738914}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: chooseBgm
+      value: onPushed
       objectReference: {fileID: 0}
     - target: {fileID: 8944277473710315477, guid: e8a484814b68d48c29a6a970cc5e094a,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3489044114474471368, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: filters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: defFilter
+      value: .wav
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: title
+      value: bgm
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+        type: 3}
+      propertyPath: filters.Array.data[0]
+      value: .wav
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e8a484814b68d48c29a6a970cc5e094a, type: 3}
+--- !u!114 &5275490180081738914 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7014090952765461111, guid: e8a484814b68d48c29a6a970cc5e094a,
+    type: 3}
+  m_PrefabInstance: {fileID: 5275490180081738913}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21dd5ea985c294839903bc67b9d5f65c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &6449106982268456462 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6449106982268456462, guid: e8a484814b68d48c29a6a970cc5e094a,

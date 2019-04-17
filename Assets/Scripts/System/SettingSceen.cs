@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Net;
+using System.Security.Policy;
 using UnityEngine;
 using SimpleFileBrowser;
 using UnityEngine.Networking;
@@ -15,28 +16,31 @@ public enum AudioDuty {
 }
 
 public class SettingSceen : MonoBehaviour {
-	private bool isWindowEnabled = false;
-	private AudioDuty choosingAudioDuty = AudioDuty.BGM;
+	[SerializeField] private FileForm bgmForm;
+	[SerializeField] private FileForm hitForm;
+	[SerializeField] private FileForm ipponForm;
 	
 	// Use this for initialization
 	void Start () {
-		
+		bgmForm.OnSelected += chooseBgm;
+		hitForm.OnSelected += chooseHit;
+		ipponForm.OnSelected += chooseIppon;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 	}
 
-	public void chooseBgm() {
-		chooseSound(AudioDuty.BGM);
+	void chooseBgm(String url) {
+		onSoundChoosed(url,AudioDuty.BGM);
 	}
 
-	public void chooseHit() {
-		chooseSound(AudioDuty.HIT);
+	void chooseHit(String url) {
+		onSoundChoosed(url,AudioDuty.HIT);
 	}
 
-	public void chooseIppon() {
-		chooseSound(AudioDuty.IPPON);
+	void chooseIppon(String url) {
+		onSoundChoosed(url,AudioDuty.IPPON);
 	}
 
 	public void back() {
@@ -44,27 +48,11 @@ public class SettingSceen : MonoBehaviour {
 	}
 	
 	/// <summary>
-	/// dutyに指定された役割にオーディオファイルを登録します
-	/// </summary>
-	/// <param name="duty">オーディオファイルの役割</param>
-	public void chooseSound(AudioDuty duty) {
-		if (!isWindowEnabled) {
-			FileBrowser.SetFilters(true,new FileBrowser.Filter("WAV File",".wav"));
-			FileBrowser.SetDefaultFilter(".wav");
-			isWindowEnabled = true;
-			FileBrowser.ShowLoadDialog(onSoundChoosed, () => { isWindowEnabled = false;}, title: "Choose Sound");
-			choosingAudioDuty = duty;
-		}
-
-	}
-	
-	/// <summary>
 	/// 選択が選ばれた時に呼ばれるデリゲードメソッド
 	/// </summary>
 	/// <param name="path">オーディオへの絶対パス</param>
-	void onSoundChoosed(String path) {
-		isWindowEnabled = false;
-		StartCoroutine(get(path));
+	void onSoundChoosed(String path,AudioDuty duty) {
+		StartCoroutine(get(path,duty));
 	}
 	
 	/// <summary>
@@ -72,7 +60,7 @@ public class SettingSceen : MonoBehaviour {
 	/// </summary>
 	/// <param name="path">オーディオへの絶対パス</param>
 	/// <returns>コルーチン</returns>
-	IEnumerator get(String path) {
+	IEnumerator get(String path,AudioDuty choosingAudioDuty) {
 		if (path.Substring(path.Length - 4).Equals(".wav")) {
 			var webReq = UnityWebRequestMultimedia.GetAudioClip("file://" + path, AudioType.WAV);
 			yield return webReq.SendWebRequest();
