@@ -2,20 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7fc6d86-26d1-4dcc-a1ae-61af88652960" name="デフォルト" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/contentModel.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.KendoElectricJudgement/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SelectArgents.prefab" afterPath="$PROJECT_DIR$/Assets/Prefabs/SelectArgents.prefab" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Setting.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Setting.unity" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Title.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Title.unity" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs.meta" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,29 +17,71 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TitleScreen.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
+            <state relative-caret-position="12">
+              <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
               <folding>
-                <marker date="1555483735998" expanded="true" signature="6:185" ph="..." />
-                <marker date="1555483735998" expanded="true" signature="228:1918" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="567:738" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="583:702" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="631:660" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="742:841" ph="/// ゲーム画面に移行します ... " />
-                <marker date="1555483735998" expanded="true" signature="863:1036" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="1040:1141" ph="/// シリアルポートに接続します ... " />
-                <marker date="1555483735998" expanded="true" signature="1165:1400" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="1285:1333" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="1364:1397" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="1404:1449" ph="/// 設定画面に移動します ... " />
-                <marker date="1555483735998" expanded="true" signature="1473:1514" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="1518:1570" ph="/// 画面をシリアル接続状態に変更します ... " />
-                <marker date="1555483735998" expanded="true" signature="1606:1715" ph="{...}" />
-                <marker date="1555483735998" expanded="true" signature="1719:1772" ph="/// 画面をシリアル未接続状態に変更します ... " />
-                <marker date="1555483735998" expanded="true" signature="1805:1916" ph="{...}" />
+                <marker date="1555573662435" expanded="false" signature="6:185" ph="..." />
+                <marker date="1555573662435" expanded="true" signature="228:1930" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="567:738" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="583:702" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="631:660" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="742:841" ph="/// ゲーム画面に移行します ... " />
+                <marker date="1555573662435" expanded="true" signature="863:1040" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="865:995" ph="/* if (!debug &amp;&amp; !SerialReciver.INSTANCE.IsAllPortReady) ... */" />
+                <marker date="1555573662435" expanded="true" signature="1044:1145" ph="/// シリアルポートに接続します ... " />
+                <marker date="1555573662435" expanded="true" signature="1169:1404" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="1289:1337" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="1368:1401" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="1408:1453" ph="/// 設定画面に移動します ... " />
+                <marker date="1555573662435" expanded="true" signature="1477:1518" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="1522:1574" ph="/// 画面をシリアル接続状態に変更します ... " />
+                <marker date="1555573662435" expanded="true" signature="1610:1723" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="1644:1720" ph="/* startButton.interactable = false; ... */" />
+                <marker date="1555573662435" expanded="true" signature="1727:1780" ph="/// 画面をシリアル未接続状態に変更します ... " />
+                <marker date="1555573662435" expanded="true" signature="1813:1928" ph="{...}" />
+                <marker date="1555573662435" expanded="true" signature="1849:1925" ph="/* connectButton.interactable = false; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SerialReciver.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+              <folding>
+                <marker date="1555313146265" expanded="false" signature="6:130" ph="..." />
+                <marker date="1555313146265" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+                <marker date="1555313146265" expanded="true" signature="321:2141" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+                <marker date="1555313146265" expanded="true" signature="424:472" ph="/// 全てのポートがつながったか ... " />
+                <marker date="1555313146265" expanded="true" signature="514:562" ph="/// シングルトンのインスタンス ... " />
+                <marker date="1555313146265" expanded="true" signature="606:656" ph="/// 唯一のインスタンスを取得します ... " />
+                <marker date="1555313146265" expanded="true" signature="695:793" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="703:790" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="730:757" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="823:860" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="885:1029" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="922:986" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1054:1117" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1086:1114" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1121:1255" ph="/// 登録してある全てのポートを起動させます ... " />
+                <marker date="1555313146265" expanded="true" signature="1285:1390" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1317:1361" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1394:1518" ph="/// マイコンポートを取得します ... " />
+                <marker date="1555313146265" expanded="true" signature="1553:1648" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1585:1629" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1652:1795" ph="/// マイコンポートを取得します ... " />
+                <marker date="1555313146265" expanded="true" signature="1840:1954" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1872:1935" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="1958:2007" ph="/// 読み込みスレッドを終了します ... " />
+                <marker date="1555313146265" expanded="true" signature="2035:2090" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="2067:2087" ph="{...}" />
+                <marker date="1555313146265" expanded="true" signature="2118:2139" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -99,7 +132,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileForm.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FileForm.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/FileForm.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -112,6 +145,78 @@
                 <marker date="1555516896591" expanded="true" signature="692:979" ph="{...}" />
                 <marker date="1555516896591" expanded="true" signature="727:973" ph="{...}" />
                 <marker date="1555516896591" expanded="true" signature="1025:1215" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MiconPort.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="321">
+              <caret line="145" column="44" lean-forward="false" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
+              <folding>
+                <marker date="1555573007894" expanded="false" signature="6:156" ph="..." />
+                <marker date="1555573007894" expanded="true" signature="158:233" ph="/// マイコンのシリアルポートを示すオブジェクト ... " />
+                <marker date="1555573007894" expanded="true" signature="272:8070" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="278:325" ph="/// ポートのID ... " />
+                <marker date="1555573007894" expanded="true" signature="366:457" ph="/// ポートのローカル的な名前 ... " />
+                <marker date="1555573007894" expanded="true" signature="508:553" ph="/// 通信速度 ... " />
+                <marker date="1555573007894" expanded="true" signature="600:658" ph="/// こちらから識別用に送るシリアル数値 ... " />
+                <marker date="1555573007894" expanded="true" signature="709:764" ph="/// マイコンポートからの応答数値 ... " />
+                <marker date="1555573007894" expanded="true" signature="816:879" ph="/// 起動時の返答待ちをどれくらいにするか(ms) ... " />
+                <marker date="1555573007894" expanded="true" signature="949:1003" ph="/// シリアルポートオブジェクト ... " />
+                <marker date="1555573007894" expanded="true" signature="1042:1100" ph="/// ポート側から送られてきたメッセージ ... " />
+                <marker date="1555573007894" expanded="true" signature="1172:1227" ph="/// メッセージ受け付け用スレッド ... " />
+                <marker date="1555573007894" expanded="true" signature="1268:1320" ph="/// スレッドをまだ動かすか ... " />
+                <marker date="1555573007894" expanded="true" signature="1370:1424" ph="/// ポートの準備ができているか ... " />
+                <marker date="1555573007894" expanded="true" signature="1467:1586" ph="/// マイコンからメッセージが送られてきた時の処理のデリゲート ... " />
+                <marker date="1555573007894" expanded="true" signature="1656:1724" ph="/// マイコンからメッセージ送られてきた時に呼ばれるイベント ... " />
+                <marker date="1555573007894" expanded="true" signature="1790:1824" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="1853:1894" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="1922:1959" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="1984:2000" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="2010:2317" ph="/// 一応動的生成にも対応するためのコンスラクタ ... " />
+                <marker date="1555573007894" expanded="true" signature="2416:2597" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="2607:2775" ph="/// シリアルを起動します ... " />
+                <marker date="1555573007894" expanded="true" signature="2800:2936" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="2944:3079" ph="/// シリアルポートを見つけます ... " />
+                <marker date="1555573007894" expanded="true" signature="3108:3928" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="3617:3800" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="3657:3742" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="3839:3922" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="3937:4139" ph="/// 指定した名前のポートに対して問い合わせを行い、返答があればそれにポートを設定します ... " />
+                <marker date="1555573007894" expanded="true" signature="4185:4844" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4278:4314" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4333:4505" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4392:4469" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4519:4632" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4658:4695" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4725:4816" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="4854:4962" ph="/// 現在portに入っているシリアルポートからの返答を待ちます ... " />
+                <marker date="1555573007894" expanded="true" signature="4994:6043" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="5037:6015" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="5330:6005" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="5429:5678" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="5700:5877" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="5901:5991" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="6053:6167" ph="/// 読み込み系を立ち上げます ... " />
+                <marker date="1555573007894" expanded="true" signature="6201:6410" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="6417:6479" ph="/// メッセージが届いていたらキューに追加します ... " />
+                <marker date="1555573007894" expanded="true" signature="6510:6866" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="6588:6860" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="6606:6716" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="6739:6850" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="6876:6931" ph="/// 読み込みスレッドを終了します ... " />
+                <marker date="1555573007894" expanded="true" signature="6954:7461" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="7196:7261" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="7311:7421" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="7471:7529" ph="/// 到着しているメッセージを処理します ... " />
+                <marker date="1555573007894" expanded="true" signature="7560:7820" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="7682:7814" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="7830:7933" ph="/// ポートにメッセージを書き込みます ... " />
+                <marker date="1555573007894" expanded="true" signature="7969:8068" ph="{...}" />
+                <marker date="1555573007894" expanded="true" signature="8127:8259" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -301,45 +406,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KendoManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="19" column="39" lean-forward="false" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-              <folding>
-                <marker date="1552608832000" expanded="false" signature="6:92" ph="..." />
-                <marker date="1552608832000" expanded="true" signature="117:140" ph="{...}" />
-                <marker date="1552608832000" expanded="true" signature="184:959" ph="{...}" />
-                <marker date="1552608832000" expanded="true" signature="250:282" ph="{...}" />
-                <marker date="1552608832000" expanded="true" signature="534:957" ph="{...}" />
-                <marker date="1552608832000" expanded="true" signature="599:670" ph="{...}" />
-                <marker date="1552608832000" expanded="true" signature="691:932" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="KendoSerialReciver.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="51" lean-forward="false" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-              <folding>
-                <marker date="1555468735729" expanded="false" signature="6:78" ph="..." />
-                <marker date="1555468735729" expanded="true" signature="128:990" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="256:333" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="388:721" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="419:718" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="484:544" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="649:703" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="769:988" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="816:985" ph="{...}" />
-                <marker date="1555468735729" expanded="true" signature="872:981" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="KeyReciver.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/KeyReciver.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -403,16 +469,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/AudioSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoAudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/DebugReciver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/KendoSerialReciver.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Application/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Application/KendoAudioManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DataBase/FileNames.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/System/SettingSceen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Object/FileForm.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs" />
       </list>
     </option>
   </component>
@@ -498,12 +564,12 @@
       <workItem from="1555226362756" duration="9456000" />
       <workItem from="1555379765672" duration="343000" />
       <workItem from="1555468644091" duration="4290000" />
-      <workItem from="1555515957092" duration="923000" />
+      <workItem from="1555515957092" duration="1916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38945000" />
+    <option name="totallyTimeSpent" value="39938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -593,6 +659,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding>
+            <marker date="1555313146265" expanded="false" signature="6:130" ph="..." />
+            <marker date="1555313146265" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="321:2141" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+            <marker date="1555313146265" expanded="true" signature="424:472" ph="/// 全てのポートがつながったか ... " />
+            <marker date="1555313146265" expanded="true" signature="514:562" ph="/// シングルトンのインスタンス ... " />
+            <marker date="1555313146265" expanded="true" signature="606:656" ph="/// 唯一のインスタンスを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="695:793" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="703:790" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="730:757" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="823:860" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="885:1029" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="922:986" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1054:1117" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1086:1114" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1121:1255" ph="/// 登録してある全てのポートを起動させます ... " />
+            <marker date="1555313146265" expanded="true" signature="1285:1390" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1317:1361" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1394:1518" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="1553:1648" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1585:1629" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1652:1795" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="1840:1954" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1872:1935" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1958:2007" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555313146265" expanded="true" signature="2035:2090" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="2067:2087" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="2118:2139" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -609,6 +705,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2805">
           <caret line="187" column="16" lean-forward="false" selection-start-line="187" selection-start-column="16" selection-end-line="187" selection-end-column="16" />
+          <folding>
+            <marker date="1555313146265" expanded="false" signature="6:130" ph="..." />
+            <marker date="1555313146265" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="321:2141" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+            <marker date="1555313146265" expanded="true" signature="424:472" ph="/// 全てのポートがつながったか ... " />
+            <marker date="1555313146265" expanded="true" signature="514:562" ph="/// シングルトンのインスタンス ... " />
+            <marker date="1555313146265" expanded="true" signature="606:656" ph="/// 唯一のインスタンスを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="695:793" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="703:790" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="730:757" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="823:860" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="885:1029" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="922:986" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1054:1117" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1086:1114" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1121:1255" ph="/// 登録してある全てのポートを起動させます ... " />
+            <marker date="1555313146265" expanded="true" signature="1285:1390" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1317:1361" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1394:1518" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="1553:1648" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1585:1629" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1652:1795" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="1840:1954" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1872:1935" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1958:2007" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555313146265" expanded="true" signature="2035:2090" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="2067:2087" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="2118:2139" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -714,20 +840,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/DebugReciver.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="139" column="41" lean-forward="false" selection-start-line="139" selection-start-column="41" selection-end-line="139" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Object/PlNumText.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -937,32 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="48" lean-forward="false" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
-          <folding>
-            <marker date="1555483735998" expanded="true" signature="6:185" ph="..." />
-            <marker date="1555483735998" expanded="true" signature="228:1918" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="567:738" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="583:702" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="631:660" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="742:841" ph="/// ゲーム画面に移行します ... " />
-            <marker date="1555483735998" expanded="true" signature="863:1036" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="1040:1141" ph="/// シリアルポートに接続します ... " />
-            <marker date="1555483735998" expanded="true" signature="1165:1400" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="1285:1333" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="1364:1397" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="1404:1449" ph="/// 設定画面に移動します ... " />
-            <marker date="1555483735998" expanded="true" signature="1473:1514" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="1518:1570" ph="/// 画面をシリアル接続状態に変更します ... " />
-            <marker date="1555483735998" expanded="true" signature="1606:1715" ph="{...}" />
-            <marker date="1555483735998" expanded="true" signature="1719:1772" ph="/// 画面をシリアル未接続状態に変更します ... " />
-            <marker date="1555483735998" expanded="true" signature="1805:1916" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DataBase/SelectAudios.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1046,6 +1132,142 @@
             <marker date="1555516896591" expanded="true" signature="692:979" ph="{...}" />
             <marker date="1555516896591" expanded="true" signature="727:973" ph="{...}" />
             <marker date="1555516896591" expanded="true" signature="1025:1215" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/SerialReciver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="68" column="19" lean-forward="false" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
+          <folding>
+            <marker date="1555313146265" expanded="false" signature="6:130" ph="..." />
+            <marker date="1555313146265" expanded="true" signature="132:277" ph="/// シリアルを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="321:2141" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="324:371" ph="/// 対象とするマイコンポート ... " />
+            <marker date="1555313146265" expanded="true" signature="424:472" ph="/// 全てのポートがつながったか ... " />
+            <marker date="1555313146265" expanded="true" signature="514:562" ph="/// シングルトンのインスタンス ... " />
+            <marker date="1555313146265" expanded="true" signature="606:656" ph="/// 唯一のインスタンスを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="695:793" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="703:790" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="730:757" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="823:860" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="885:1029" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="922:986" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1054:1117" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1086:1114" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1121:1255" ph="/// 登録してある全てのポートを起動させます ... " />
+            <marker date="1555313146265" expanded="true" signature="1285:1390" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1317:1361" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1394:1518" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="1553:1648" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1585:1629" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1652:1795" ph="/// マイコンポートを取得します ... " />
+            <marker date="1555313146265" expanded="true" signature="1840:1954" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1872:1935" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="1958:2007" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555313146265" expanded="true" signature="2035:2090" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="2067:2087" ph="{...}" />
+            <marker date="1555313146265" expanded="true" signature="2118:2139" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/MiconPort.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="145" column="44" lean-forward="false" selection-start-line="145" selection-start-column="44" selection-end-line="145" selection-end-column="44" />
+          <folding>
+            <marker date="1555573007894" expanded="false" signature="6:156" ph="..." />
+            <marker date="1555573007894" expanded="true" signature="158:233" ph="/// マイコンのシリアルポートを示すオブジェクト ... " />
+            <marker date="1555573007894" expanded="true" signature="272:8070" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="278:325" ph="/// ポートのID ... " />
+            <marker date="1555573007894" expanded="true" signature="366:457" ph="/// ポートのローカル的な名前 ... " />
+            <marker date="1555573007894" expanded="true" signature="508:553" ph="/// 通信速度 ... " />
+            <marker date="1555573007894" expanded="true" signature="600:658" ph="/// こちらから識別用に送るシリアル数値 ... " />
+            <marker date="1555573007894" expanded="true" signature="709:764" ph="/// マイコンポートからの応答数値 ... " />
+            <marker date="1555573007894" expanded="true" signature="816:879" ph="/// 起動時の返答待ちをどれくらいにするか(ms) ... " />
+            <marker date="1555573007894" expanded="true" signature="949:1003" ph="/// シリアルポートオブジェクト ... " />
+            <marker date="1555573007894" expanded="true" signature="1042:1100" ph="/// ポート側から送られてきたメッセージ ... " />
+            <marker date="1555573007894" expanded="true" signature="1172:1227" ph="/// メッセージ受け付け用スレッド ... " />
+            <marker date="1555573007894" expanded="true" signature="1268:1320" ph="/// スレッドをまだ動かすか ... " />
+            <marker date="1555573007894" expanded="true" signature="1370:1424" ph="/// ポートの準備ができているか ... " />
+            <marker date="1555573007894" expanded="true" signature="1467:1586" ph="/// マイコンからメッセージが送られてきた時の処理のデリゲート ... " />
+            <marker date="1555573007894" expanded="true" signature="1656:1724" ph="/// マイコンからメッセージ送られてきた時に呼ばれるイベント ... " />
+            <marker date="1555573007894" expanded="true" signature="1790:1824" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="1853:1894" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="1922:1959" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="1984:2000" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="2010:2317" ph="/// 一応動的生成にも対応するためのコンスラクタ ... " />
+            <marker date="1555573007894" expanded="true" signature="2416:2597" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="2607:2775" ph="/// シリアルを起動します ... " />
+            <marker date="1555573007894" expanded="true" signature="2800:2936" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="2944:3079" ph="/// シリアルポートを見つけます ... " />
+            <marker date="1555573007894" expanded="true" signature="3108:3928" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="3617:3800" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="3657:3742" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="3839:3922" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="3937:4139" ph="/// 指定した名前のポートに対して問い合わせを行い、返答があればそれにポートを設定します ... " />
+            <marker date="1555573007894" expanded="true" signature="4185:4844" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4278:4314" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4333:4505" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4392:4469" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4519:4632" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4658:4695" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4725:4816" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="4854:4962" ph="/// 現在portに入っているシリアルポートからの返答を待ちます ... " />
+            <marker date="1555573007894" expanded="true" signature="4994:6043" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="5037:6015" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="5330:6005" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="5429:5678" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="5700:5877" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="5901:5991" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="6053:6167" ph="/// 読み込み系を立ち上げます ... " />
+            <marker date="1555573007894" expanded="true" signature="6201:6410" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="6417:6479" ph="/// メッセージが届いていたらキューに追加します ... " />
+            <marker date="1555573007894" expanded="true" signature="6510:6866" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="6588:6860" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="6606:6716" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="6739:6850" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="6876:6931" ph="/// 読み込みスレッドを終了します ... " />
+            <marker date="1555573007894" expanded="true" signature="6954:7461" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="7196:7261" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="7311:7421" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="7471:7529" ph="/// 到着しているメッセージを処理します ... " />
+            <marker date="1555573007894" expanded="true" signature="7560:7820" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="7682:7814" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="7830:7933" ph="/// ポートにメッセージを書き込みます ... " />
+            <marker date="1555573007894" expanded="true" signature="7969:8068" ph="{...}" />
+            <marker date="1555573007894" expanded="true" signature="8127:8259" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/System/TitleScreen.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="20" column="42" lean-forward="true" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+          <folding>
+            <marker date="1555573662435" expanded="false" signature="6:185" ph="..." />
+            <marker date="1555573662435" expanded="true" signature="228:1930" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="567:738" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="583:702" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="631:660" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="742:841" ph="/// ゲーム画面に移行します ... " />
+            <marker date="1555573662435" expanded="true" signature="863:1040" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="865:995" ph="/* if (!debug &amp;&amp; !SerialReciver.INSTANCE.IsAllPortReady) ... */" />
+            <marker date="1555573662435" expanded="true" signature="1044:1145" ph="/// シリアルポートに接続します ... " />
+            <marker date="1555573662435" expanded="true" signature="1169:1404" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="1289:1337" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="1368:1401" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="1408:1453" ph="/// 設定画面に移動します ... " />
+            <marker date="1555573662435" expanded="true" signature="1477:1518" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="1522:1574" ph="/// 画面をシリアル接続状態に変更します ... " />
+            <marker date="1555573662435" expanded="true" signature="1610:1723" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="1644:1720" ph="/* startButton.interactable = false; ... */" />
+            <marker date="1555573662435" expanded="true" signature="1727:1780" ph="/// 画面をシリアル未接続状態に変更します ... " />
+            <marker date="1555573662435" expanded="true" signature="1813:1928" ph="{...}" />
+            <marker date="1555573662435" expanded="true" signature="1849:1925" ph="/* connectButton.interactable = false; ... */" />
           </folding>
         </state>
       </provider>

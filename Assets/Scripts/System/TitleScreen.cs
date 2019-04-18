@@ -33,8 +33,8 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	/// <exception cref="Exception">異常な状態の時</exception>
 	public void start() {
-		if (!debug && !SerialReciver.INSTANCE.IsAllPortReady)
-			throw new Exception("Tried to start game though port isn't ready");
+//		if (!debug && !SerialReciver.INSTANCE.IsAllPortReady)
+//			throw new Exception("Tried to start game though port isn't ready");
 		
 		SceneManager.LoadScene("GameScene");
 	}
@@ -65,8 +65,8 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	private void changeNotConnected() {
 		logText.text = MES_CONNECTED;
-		startButton.interactable = false;
-		connectButton.interactable = true;
+//		startButton.interactable = false;
+//		connectButton.interactable = true;
 	}
 	
 	/// <summary>
@@ -74,7 +74,7 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	private void changeConnected() {
 		logText.text = MES_UNCONNECTED;
-		connectButton.interactable = false;
-		startButton.interactable = true;
+//		connectButton.interactable = false;
+//		startButton.interactable = true;
 	}
 }

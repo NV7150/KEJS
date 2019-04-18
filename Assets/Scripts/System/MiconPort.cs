@@ -86,6 +86,10 @@ public class MiconPort {
     public bool Ready {
         get { return ready; }
     }
+
+    public MiconPort() {
+        
+    }
     
     /// <summary>
     /// 一応動的生成にも対応するためのコンスラクタ
@@ -139,6 +143,7 @@ public class MiconPort {
         int notBoot = 0;
         foreach (var portName in ports) {
             if (accessPort(portName)) {
+                Debug.Log("found" + portName);
                 break;
             } else {
                 notBoot++;
