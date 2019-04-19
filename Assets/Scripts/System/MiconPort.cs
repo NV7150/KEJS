@@ -140,20 +140,15 @@ public class MiconPort {
 			throw new Exception("OS you're using is not supported.");
 		#endif
         
-        int notBoot = 0;
         foreach (var portName in ports) {
             if (accessPort(portName)) {
-                Debug.Log("found" + portName);
-                break;
-            } else {
-                notBoot++;
+                return;
             }
         }
-
-        if (notBoot >= ports.Length) {
-            port = null;
-            throw new PortNotFoundException();
-        }
+        
+        port = null;
+        throw new PortNotFoundException();
+        
     }
 	
 	

@@ -65,7 +65,6 @@ public class SerialReciver : MonoBehaviour {
 	/// <exception cref="PortNotFoundException">一つでもポートが見つからない時に投げられます</exception>
 	public void startAllPorts() {
 		foreach (var port in ports) {
-			Debug.Log("into");
 			port.start();
 		}
 
