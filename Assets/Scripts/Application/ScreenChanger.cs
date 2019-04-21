@@ -1,12 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScreenChanger : MonoBehaviour {
 	[SerializeField] private KendoManager kendoMan;
-	
-	[SerializeField] private GameObject ipponScreenPrefab;
-	[SerializeField] private GameObject hitScreenPrefab;
+
+	private GameObject imageObjPrefab;
 
 	[SerializeField] private GameObject canvas;
 
@@ -18,8 +18,10 @@ public class ScreenChanger : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
-		ipponScreenObj = Instantiate(ipponScreenPrefab);
-		hitScreenObj = Instantiate(hitScreenPrefab);
+		imageObjPrefab = Resources.Load<GameObject>("ImageObject");
+		
+		ipponScreenObj = Instantiate(imageObjPrefab);
+		hitScreenObj = Instantiate(imageObjPrefab);
 
 		ipponScreenObj.transform.parent = canvas.transform;
 		hitScreenObj.transform.parent = canvas.transform;
@@ -28,7 +30,15 @@ public class ScreenChanger : MonoBehaviour {
 
 		ipponPlText = ipponScreenObj.GetComponent<PlNumText>();
 		hitPlText = hitScreenObj.GetComponent<PlNumText>();
-		
+
+		if (SelectImages.HitSprite != null) {
+			setSpriteToImageObj(hitScreenObj,SelectImages.HitSprite);
+		}
+
+		if (SelectImages.IpponSprite != null) {
+			setSpriteToImageObj(ipponScreenObj,SelectImages.IpponSprite);
+		}
+
 		ipponScreenObj.SetActive(false);
 		hitScreenObj.SetActive(false);
 
@@ -36,6 +46,18 @@ public class ScreenChanger : MonoBehaviour {
 		kendoMan.OnIppon += toIppon;
 		kendoMan.OnBack += back;
 	}
+
+	void setSpriteToImageObj(GameObject imageObj,Sprite sprite) {
+		var imageCom = imageObj.GetComponent<Image>();
+		var aspRat = imageCom.GetComponent<AspectRatioFitter>();
+		imageCom.sprite = sprite;
+		imageCom.SetNativeSize();
+		aspRat.aspectRatio = 
+			imageCom.rectTransform.rect.width / imageCom.rectTransform.rect.height;
+		aspRat.aspectMode = AspectRatioFitter.AspectMode.FitInParent;
+		imageObj.transform.localScale = new Vector3(1,1,1);
+	}
+
 
 	void toHit(int player) {
 		ipponScreenObj.SetActive(false);

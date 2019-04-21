@@ -15,14 +15,16 @@ public enum AudioDuty {
 	IPPON
 }
 
-public class SettingSceen : MonoBehaviour {
+public class AudioSettingSceen : MonoBehaviour {
 	[SerializeField] private FileForm bgmForm;
 	[SerializeField] private FileForm hitForm;
 	[SerializeField] private FileForm ipponForm;
 	
 	// Use this for initialization
 	void Start () {
-		bgmForm.OnSelected += chooseBgm;
+		FileForm.Selected func = chooseBgm;
+		Debug.Log(bgmForm);
+		bgmForm.OnSelected += func;
 		hitForm.OnSelected += chooseHit;
 		ipponForm.OnSelected += chooseIppon;
 	}
@@ -44,7 +46,7 @@ public class SettingSceen : MonoBehaviour {
 	}
 
 	public void back() {
-		SceneManager.LoadScene("Title");
+		SceneManager.LoadScene("Setting");
 	}
 	
 	/// <summary>

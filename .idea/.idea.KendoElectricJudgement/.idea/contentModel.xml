@@ -12,14 +12,6 @@
               <e p="Unity3DRider.cs" t="Include" />
             </e>
           </e>
-          <e p="GitHub" t="Include">
-            <e p="Editor" t="Include">
-              <e p="credits.txt" t="Include" />
-              <e p="eula.txt" t="Include" />
-              <e p="ExtensionLoader.cs" t="Include" />
-              <e p="UnityAPIWrapper.cs" t="Include" />
-            </e>
-          </e>
           <e p="SimpleFileBrowser" t="Include">
             <e p="Android" t="Include">
               <e p="FBPermissionCallbackAndroid.cs" t="Include" />
@@ -47,19 +39,22 @@
           <e p="DataBase" t="Include">
             <e p="FileNames.cs" t="Include" />
             <e p="SelectAudios.cs" t="Include" />
+            <e p="SelectImages.cs" t="Include" />
           </e>
           <e p="Object" t="Include">
             <e p="FileForm.cs" t="Include" />
             <e p="PlNumText.cs" t="Include" />
+            <e p="SettingBase.cs" t="Include" />
+            <e p="TitleScreen.cs" t="Include" />
           </e>
           <e p="System" t="Include">
+            <e p="AudioSettingSceen.cs" t="Include" />
+            <e p="ImageSettings.cs" t="Include" />
             <e p="KendoManager.cs" t="Include" />
             <e p="KendoSerialReciver.cs" t="Include" />
             <e p="KeyReciver.cs" t="Include" />
             <e p="MiconPort.cs" t="Include" />
             <e p="SerialReciver.cs" t="Include" />
-            <e p="SettingSceen.cs" t="Include" />
-            <e p="TitleScreen.cs" t="Include" />
           </e>
         </e>
       </e>

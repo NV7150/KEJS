@@ -62,12 +62,16 @@ public class TitleScreen : MonoBehaviour {
 	public void setting() {
 		SceneManager.LoadScene("Setting");
 	}
+
+	public void exit() {
+		Application.Quit();
+	}
 	
 	/// <summary>
 	/// 画面をシリアル接続状態に変更します
 	/// </summary>
 	private void changeNotConnected() {
-		logText.text = MES_CONNECTED;
+		logText.text = MES_UNCONNECTED;
 		startButton.interactable = false;
 		connectButton.interactable = true;
 	}
@@ -76,7 +80,7 @@ public class TitleScreen : MonoBehaviour {
 	/// 画面をシリアル未接続状態に変更します
 	/// </summary>
 	private void changeConnected() {
-		logText.text = MES_UNCONNECTED;
+		logText.text = MES_CONNECTED;
 		connectButton.interactable = false;
 		startButton.interactable = true;
 	}
