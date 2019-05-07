@@ -17,11 +17,6 @@ public class SerialReciver : MonoBehaviour {
 	[SerializeField] private List<MiconPort> ports;
 	
 	/// <summary>
-	/// 全てのポートがつながったか
-	/// </summary>
-	private bool isAllPortReady = false;
-	
-	/// <summary>
 	/// シングルトンのインスタンス
 	/// </summary>
 	private static SerialReciver instance;
@@ -38,9 +33,19 @@ public class SerialReciver : MonoBehaviour {
 			}
 		}
 	}
-
+	
+	/// <summary>
+	/// 全てのポートが繋がっているかを判断します
+	/// もし繋がっていなかった場合、そのポートの切断処理も同時に行います。
+	/// </summary>
 	public bool IsAllPortReady {
-		get { return isAllPortReady; }
+		get {
+			foreach (var port in ports) {
+				if (!port.Ready)
+					return false;
+			}
+			return true;
+		}
 	}
 	
 	private void Awake() {
@@ -65,10 +70,10 @@ public class SerialReciver : MonoBehaviour {
 	/// <exception cref="PortNotFoundException">一つでもポートが見つからない時に投げられます</exception>
 	public void startAllPorts() {
 		foreach (var port in ports) {
+			port.end();
 			port.start();
 		}
 
-		isAllPortReady = true;
 	}
 	
 	/// <summary>

@@ -33,6 +33,7 @@
         <e p="Scripts" t="Include">
           <e p="Application" t="Include">
             <e p="KendoAudioManager.cs" t="Include" />
+            <e p="ScoreManager.cs" t="Include" />
             <e p="ScreenChanger.cs" t="Include" />
             <e p="TestReciver.cs" t="Include" />
           </e>
@@ -42,9 +43,11 @@
             <e p="SelectImages.cs" t="Include" />
           </e>
           <e p="Object" t="Include">
+            <e p="ConnectWaring.cs" t="Include" />
             <e p="FileForm.cs" t="Include" />
             <e p="PlNumText.cs" t="Include" />
             <e p="SettingBase.cs" t="Include" />
+            <e p="TitleReturner.cs" t="Include" />
             <e p="TitleScreen.cs" t="Include" />
           </e>
           <e p="System" t="Include">

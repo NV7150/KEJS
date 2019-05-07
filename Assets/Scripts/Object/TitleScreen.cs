@@ -10,6 +10,7 @@ public class TitleScreen : MonoBehaviour {
 	[SerializeField] private Text logText;
 	[SerializeField] private Button startButton;
 	[SerializeField] private Button connectButton;
+	[SerializeField] private Text connectButtonText;
 	[SerializeField] private bool debug = false;
 
 	private const String MES_UNCONNECTED = "Not-Connected";
@@ -44,11 +45,10 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	/// <exception cref="Exception">異常な状態の時</exception>
 	public void connect() {
-		if (SerialReciver.INSTANCE.IsAllPortReady)
-			throw new Exception("Tried to connect port though port ready");
 		try {
 			SerialReciver.INSTANCE.startAllPorts();
 		} catch (PortNotFoundException) {
+			changeNotConnected();
 			logText.text = "Failed";
 			return;
 		}
@@ -72,6 +72,7 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	private void changeNotConnected() {
 		logText.text = MES_UNCONNECTED;
+		connectButtonText.text = "Connect";
 		startButton.interactable = false;
 		connectButton.interactable = true;
 	}
@@ -81,7 +82,7 @@ public class TitleScreen : MonoBehaviour {
 	/// </summary>
 	private void changeConnected() {
 		logText.text = MES_CONNECTED;
-		connectButton.interactable = false;
+		connectButtonText.text = "Re-Connect";
 		startButton.interactable = true;
 	}
 }

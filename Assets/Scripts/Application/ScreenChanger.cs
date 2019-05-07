@@ -47,6 +47,12 @@ public class ScreenChanger : MonoBehaviour {
 		kendoMan.OnBack += back;
 	}
 
+	private void OnDestroy() {
+		kendoMan.OnHit -= toHit;
+		kendoMan.OnIppon -= toIppon;
+		kendoMan.OnBack -= back;
+	}
+
 	void setSpriteToImageObj(GameObject imageObj,Sprite sprite) {
 		var imageCom = imageObj.GetComponent<Image>();
 		var aspRat = imageCom.GetComponent<AspectRatioFitter>();

@@ -16,6 +16,12 @@ public class KendoAudioManager : MonoBehaviour {
         
     }
 
+    private void OnDestroy() {
+        kendoMan.OnBack -= bgmPlay;
+        kendoMan.OnHit -= hitPlay;
+        kendoMan.OnIppon -= ipponPlay;
+    }
+
     void bgmPlay() {
         playAudio(SelectAudios.Bgm);
     }

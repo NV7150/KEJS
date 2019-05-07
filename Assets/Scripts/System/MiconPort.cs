@@ -84,7 +84,10 @@ public class MiconPort {
     }
     
     public bool Ready {
-        get { return ready; }
+        get {
+
+            return ready;
+        }
     }
 
     public MiconPort() {

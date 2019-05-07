@@ -28,7 +28,7 @@ public class AudioSettingSceen : MonoBehaviour {
 		hitForm.OnSelected += chooseHit;
 		ipponForm.OnSelected += chooseIppon;
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 	}
