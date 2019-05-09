@@ -19,30 +19,48 @@ public class AudioSettingSceen : MonoBehaviour {
 	[SerializeField] private FileForm bgmForm;
 	[SerializeField] private FileForm hitForm;
 	[SerializeField] private FileForm ipponForm;
+
+	private void Awake() {
+		bgmForm.OnSelected += choose;
+		hitForm.OnSelected += choose;
+		ipponForm.OnSelected += choose;
+		
+		bgmForm.OnDeleted += delete;
+		hitForm.OnDeleted += delete;
+		ipponForm.OnDeleted += delete;
+	}
 	
 	// Use this for initialization
 	void Start () {
-		FileForm.Selected func = chooseBgm;
-		Debug.Log(bgmForm);
-		bgmForm.OnSelected += func;
-		hitForm.OnSelected += chooseHit;
-		ipponForm.OnSelected += chooseIppon;
+//		Debug.Log(bgmForm);
+		
 	}
 
 	// Update is called once per frame
 	void Update () {
 	}
 
-	void chooseBgm(String url) {
-		onSoundChoosed(url,AudioDuty.BGM);
+	void choose(string title,string url) {
+		if (title == bgmForm.Title) {
+			onSoundChoosed(url,AudioDuty.BGM,SelectAudios.BGM_FILE_TAG,title);
+		}else if (title == hitForm.Title) {
+			onSoundChoosed(url,AudioDuty.HIT,SelectAudios.HIT_FILE_TAG,title);
+		}else if (title == ipponForm.Title) {
+			onSoundChoosed(url,AudioDuty.IPPON,SelectAudios.IPPON_FILE_TAG,title);
+		}
 	}
 
-	void chooseHit(String url) {
-		onSoundChoosed(url,AudioDuty.HIT);
-	}
-
-	void chooseIppon(String url) {
-		onSoundChoosed(url,AudioDuty.IPPON);
+	void delete(string title) {
+		if (title == bgmForm.Title) {
+			SelectAudios.Bgm = null;
+			SettingSaveManger.delete(SelectAudios.BGM_FILE_TAG);
+		}else if (title == hitForm.Title) {
+			SelectAudios.Hit = null;
+			SettingSaveManger.delete(SelectAudios.HIT_FILE_TAG);
+		}else if (title == ipponForm.Title) {
+			SelectAudios.Ippon = null;
+			SettingSaveManger.delete(SelectAudios.IPPON_FILE_TAG);
+		}
 	}
 
 	public void back() {
@@ -53,8 +71,10 @@ public class AudioSettingSceen : MonoBehaviour {
 	/// 選択が選ばれた時に呼ばれるデリゲードメソッド
 	/// </summary>
 	/// <param name="path">オーディオへの絶対パス</param>
-	void onSoundChoosed(String path,AudioDuty duty) {
+	void onSoundChoosed(String path,AudioDuty duty,string tag,string title) {
 		StartCoroutine(get(path,duty));
+		SettingSaveManger.save(tag,path);
+		SettingSaveManger.saveTitle(tag,title);
 	}
 	
 	/// <summary>
@@ -66,6 +86,11 @@ public class AudioSettingSceen : MonoBehaviour {
 		if (path.Substring(path.Length - 4).Equals(".wav")) {
 			var webReq = UnityWebRequestMultimedia.GetAudioClip("file://" + path, AudioType.WAV);
 			yield return webReq.SendWebRequest();
+
+			if (webReq.isNetworkError) {
+				Debug.Log("error!");
+				yield break;
+			}
 
 			var clip = ((DownloadHandlerAudioClip) webReq.downloadHandler).audioClip;
 			switch (choosingAudioDuty) {

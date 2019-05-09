@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public static class SelectImages {
-    
+    public static readonly string HIT_FILE_TAG = "I_HIT";
     private static Sprite hitSprite;
+    public static readonly string IPPON_FILE_TAG = "I_IPPON";
     private static Sprite ipponSprite;
 
     public static Sprite HitSprite {

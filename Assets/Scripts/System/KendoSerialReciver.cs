@@ -35,7 +35,7 @@ public class KendoSerialReciver : MonoBehaviour {
 			int val = 0;
 			if (int.TryParse(message,out val)) {
 				//シリアル受信
-				Debug.Log(val);
+				Debug.Log("recived" + val);
 				lastHit = val;
 				kendoMan.changeState(KendoState.HIT, lastHit);
 			}
