@@ -461,21 +461,23 @@
           <e p="DataBase" t="Include">
             <e p="FileAddress.cs" t="Include" />
             <e p="FileNames.cs" t="Include" />
-            <e p="SelectAudios.cs" t="Include" />
-            <e p="SelectImages.cs" t="Include" />
+            <e p="SaveLoader.cs" t="Include" />
+            <e p="SettingPathBase.cs" t="Include" />
             <e p="SettingSaveManger.cs" t="Include" />
+            <e p="SettingType.cs" t="Include" />
           </e>
           <e p="Object" t="Include">
             <e p="ConnectWaring.cs" t="Include" />
             <e p="FileForm.cs" t="Include" />
+            <e p="PathTraffic.cs" t="Include" />
             <e p="PlNumText.cs" t="Include" />
             <e p="SettingBase.cs" t="Include" />
             <e p="TitleReturner.cs" t="Include" />
             <e p="TitleScreen.cs" t="Include" />
           </e>
           <e p="System" t="Include">
-            <e p="AudioSettingSceen.cs" t="Include" />
-            <e p="ImageSettings.cs" t="Include" />
+            <e p="AudioLoader.cs" t="Include" />
+            <e p="ImageLoader.cs" t="Include" />
             <e p="KendoManager.cs" t="Include" />
             <e p="KendoSerialReciver.cs" t="Include" />
             <e p="KeyReciver.cs" t="Include" />

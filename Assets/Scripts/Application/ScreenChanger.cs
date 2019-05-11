@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class ScreenChanger : MonoBehaviour {
 	[SerializeField] private KendoManager kendoMan;
+	[SerializeField] private ImageLoader loader;
 
 	private GameObject imageObjPrefab;
 
@@ -18,6 +19,8 @@ public class ScreenChanger : MonoBehaviour {
 	
 	// Use this for initialization
 	void Start () {
+		loader.OnImageLoad += onLoad;
+		
 		imageObjPrefab = Resources.Load<GameObject>("ImageObject");
 		
 		ipponScreenObj = Instantiate(imageObjPrefab);
@@ -31,20 +34,23 @@ public class ScreenChanger : MonoBehaviour {
 		ipponPlText = ipponScreenObj.GetComponent<PlNumText>();
 		hitPlText = hitScreenObj.GetComponent<PlNumText>();
 
-		if (SelectImages.HitSprite != null) {
-			setSpriteToImageObj(hitScreenObj,SelectImages.HitSprite);
-		}
-
-		if (SelectImages.IpponSprite != null) {
-			setSpriteToImageObj(ipponScreenObj,SelectImages.IpponSprite);
-		}
-
 		ipponScreenObj.SetActive(false);
 		hitScreenObj.SetActive(false);
+		
+		setSpriteToImageObj(hitScreenObj,Resources.Load<Sprite>("DefaultHit"));
+		setSpriteToImageObj(ipponScreenObj,Resources.Load<Sprite>("DefaultIppon"));
+		
 
 		kendoMan.OnHit += toHit;
 		kendoMan.OnIppon += toIppon;
 		kendoMan.OnBack += back;
+	}
+
+	private void onLoad(ImageDuty duty) {
+		var sprite = (duty == ImageDuty.HIT) ? loader.Hit : loader.Ippon;
+		var obj = (duty == ImageDuty.HIT) ? hitScreenObj : ipponScreenObj;
+		if(sprite != null)
+			setSpriteToImageObj(obj,sprite);
 	}
 
 	private void OnDestroy() {

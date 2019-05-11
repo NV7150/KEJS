@@ -18,6 +18,7 @@ public class TitleScreen : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		SettingPathBase.load();
 		if (!debug) {
 			if (SerialReciver.INSTANCE.IsAllPortReady) {
 				changeConnected();

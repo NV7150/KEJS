@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KendoAudioManager : MonoBehaviour {
     [SerializeField] private KendoManager kendoMan;
+    [SerializeField]private AudioLoader loader;
     private AudioSource audioSource;
     
     // Start is called before the first frame update
@@ -23,15 +24,15 @@ public class KendoAudioManager : MonoBehaviour {
     }
 
     void bgmPlay() {
-        playAudio(SelectAudios.Bgm);
+        playAudio(loader.Bgm);
     }
 
     void hitPlay(int player) {
-        playAudio(SelectAudios.Hit);
+        playAudio(loader.Hit);
     }
 
     void ipponPlay(int player) {
-        playAudio(SelectAudios.Ippon);
+        playAudio(loader.Ippon);
     }
 
     public void playAudio(AudioClip clip) {
